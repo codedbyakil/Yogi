@@ -11,52 +11,55 @@ headers = {
     "Range": "bytes=0-1024"
 }
 
+def check(url):
+    try:
+        r = requests.get(url, headers=headers, timeout=timeout, stream=True, allow_redirects=True)
+
+        # clearly dead streams
+        if r.status_code in [404, 410]:
+            return False
+
+        # working
+        if r.status_code in [200, 206]:
+            return True
+
+        # protected / blocked streams → keep
+        return True
+
+    except:
+        # connection failure → remove
+        return False
+
+
 with open(source, "r", encoding="utf-8", errors="ignore") as f:
     lines = f.readlines()
 
 out = ["#EXTM3U\n"]
 
-current_block = []
-current_url = None
-
-def check(url):
-    try:
-        r = requests.get(
-            url,
-            headers=headers,
-            timeout=timeout,
-            stream=True,
-            allow_redirects=True
-        )
-        return r.status_code in [200,206]
-    except:
-        return None
+block = []
+url = None
 
 for line in lines:
 
     if line.startswith("#EXTINF"):
-        if current_block:
-            if current_url:
-                result = check(current_url)
+        if block and url:
+            if check(url):
+                out.extend(block)
 
-                if result is True or result is None:
-                    out.extend(current_block)
-
-        current_block = [line]
-        current_url = None
+        block = [line]
+        url = None
 
     elif line.strip().startswith("http"):
-        current_url = line.strip()
-        current_block.append(line)
+        url = line.strip()
+        block.append(line)
 
-    elif current_block:
-        current_block.append(line)
+    elif block:
+        block.append(line)
 
-if current_block:
-    if current_url:
-        result = check(current_url)
-        if result is True or result is None:
-            out.extend(current_block)
+# last entry
+if block and url:
+    if check(url):
+        out.extend(block)
 
 with open(output, "w", encoding="utf-8") as f:
     f.writelines(out)
