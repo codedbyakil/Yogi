@@ -24,6 +24,23 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Common headers to mimic a real IPTV player
+DEFAULT_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': '*/*',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Origin': 'https://m3u.8088y.fun',
+    'Referer': 'https://m3u.8088y.fun/',
+    'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+    'Sec-Ch-Ua-Mobile': '?0',
+    'Sec-Ch-Ua-Platform': '"Windows"',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-origin',
+    'Connection': 'keep-alive',
+}
+
 @dataclass
 class ChannelBlock:
     """Represents a complete channel block from M3U playlist"""
@@ -93,7 +110,8 @@ class M3UParser:
             'clearkey' in line.lower() or
             'token' in line.lower() or
             '?tk=' in line or
-            'license' in line.lower()
+            'license' in line.lower() or
+            '.mpd' in line.lower()
             for line in lines
         )
         
@@ -161,10 +179,13 @@ class StreamValidator:
         """Check regular streams (expect 200)"""
         try:
             async with aiohttp.ClientSession() as session:
-                async with session.head(url, timeout=self.timeout, allow_redirects=True) as response:
+                async with session.head(url, timeout=self.timeout, allow_redirects=True, headers=DEFAULT_HEADERS) as response:
                     # Accept 200 for regular streams
                     return response.status == 200, response.status
-        except:
+        except asyncio.TimeoutError:
+            return False, 408
+        except Exception as e:
+            logger.debug(f"Stream check error: {e}")
             return False, 0
     
     async def _check_protected_stream(self, url: str) -> Tuple[bool, int]:
@@ -174,12 +195,15 @@ class StreamValidator:
         """
         try:
             async with aiohttp.ClientSession() as session:
-                async with session.head(url, timeout=self.timeout, allow_redirects=True) as response:
+                # Use GET with range request for partial content
+                headers = {**DEFAULT_HEADERS, 'Range': 'bytes=0-1'}
+                async with session.get(url, timeout=self.timeout, allow_redirects=True, headers=headers) as response:
                     # Protected streams might return 403/401 but still work in players
                     if response.status in [200, 206]:
                         return True, response.status
                     elif response.status in [403, 401]:
                         # Return as "working" for validation purposes
+                        logger.debug(f"Protected stream {url} returned {response.status} - keeping")
                         return True, response.status
                     elif response.status < 500:  # Other client errors
                         return False, response.status
@@ -187,8 +211,10 @@ class StreamValidator:
                         return False, response.status
         except asyncio.TimeoutError:
             # Timeout might indicate working stream with slow response
+            logger.debug(f"Protected stream {url} timed out - keeping")
             return True, 408
-        except:
+        except Exception as e:
+            logger.debug(f"Protected stream check error: {e}")
             return False, 0
     
     async def validate_batch(self, blocks: List[ChannelBlock]) -> List[ChannelBlock]:
@@ -266,15 +292,50 @@ class PlaylistProcessor:
             return None
     
     def _download_playlist(self, url: str) -> Optional[str]:
-        """Download playlist with retry logic"""
+        """Download playlist with retry logic and proper headers"""
         for attempt in range(3):
             try:
-                response = requests.get(url, timeout=10)
+                session = requests.Session()
+                
+                # First try with browser headers
+                response = session.get(
+                    url, 
+                    timeout=15,
+                    headers=DEFAULT_HEADERS,
+                    allow_redirects=True
+                )
+                
+                # If that fails with 403, try with alternative headers
+                if response.status_code == 403:
+                    logger.info("Got 403, trying with alternative headers...")
+                    alt_headers = {
+                        'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18',
+                        'Accept': '*/*',
+                        'Connection': 'keep-alive',
+                    }
+                    response = session.get(url, timeout=15, headers=alt_headers, allow_redirects=True)
+                
                 response.raise_for_status()
                 return response.text
+                
             except requests.RequestException as e:
                 logger.warning(f"Download attempt {attempt + 1} failed: {e}")
-                time.sleep(2)
+                if attempt < 2:  # Don't sleep on last attempt
+                    time.sleep(3)
+        
+        # Final attempt: try with curl-like headers
+        try:
+            logger.info("Final attempt with curl-like headers...")
+            curl_headers = {
+                'User-Agent': 'curl/8.4.0',
+                'Accept': '*/*',
+            }
+            response = requests.get(url, timeout=15, headers=curl_headers, allow_redirects=True)
+            response.raise_for_status()
+            return response.text
+        except:
+            pass
+            
         return None
     
     def _remove_duplicates(self, blocks: List[ChannelBlock]) -> List[ChannelBlock]:
@@ -292,7 +353,6 @@ class PlaylistProcessor:
     def _keep_highest_quality(self, blocks: List[ChannelBlock]) -> List[ChannelBlock]:
         """
         Keep highest quality when multiple variants of same channel exist
-        This is a simple implementation - you might want to enhance based on your needs
         """
         quality_map = {}
         
@@ -326,6 +386,7 @@ async def main():
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(playlist)
         logger.info(f"Playlist saved to {output_file}")
+        logger.info(f"Playlist size: {len(playlist.splitlines())} lines")
     else:
         logger.error("Failed to process playlist")
         sys.exit(1)
