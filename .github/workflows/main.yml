@@ -1,37 +1,52 @@
-name: Update M3U Playlist
+name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    # Runs every 10 minutes
+    - cron: '*/10 * * * *'
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Install python deps
-        run: |
-          pip install requests
-
-      - name: Download playlist
-        run: |
-          curl -L "https://m3u.8088y.fun/testing.m3u" -o source.m3u
-
-      - name: Check streams
-        run: |
-          python check_streams.py source.m3u main.m3u
-
-      - name: Commit if changed
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add main.m3u
-          git commit -m "Auto update playlist" || echo "No changes"
-          git push
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests aiohttp
+    
+    - name: Process playlist
+      run: |
+        python scripts/process_playlist.py
+    
+    - name: Check for changes
+      id: git-check
+      run: |
+        git add main.m3u
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected"
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push if changed
+      if: steps.git-check.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Auto-update playlist $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        git push
