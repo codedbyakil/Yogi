@@ -1,21 +1,18 @@
 #!/usr/bin/env python3
 """
 IPTV M3U Playlist Processor
-Focuses on live stream validation while preserving FM radio and media library content.
+Only includes live TV streams - filters out FM radio and media library completely.
 """
 
 import re
 import requests
 import asyncio
 import aiohttp
-from urllib.parse import urlparse, parse_qs
 import sys
 from typing import List, Dict, Any, Optional, Tuple, Set
 from dataclasses import dataclass
-from collections import OrderedDict
 import logging
 import time
-from datetime import datetime
 
 # Configure logging
 logging.basicConfig(
@@ -29,9 +26,26 @@ DEFAULT_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': '*/*',
     'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
     'Connection': 'keep-alive',
 }
+
+# Keywords that indicate non-live content (case insensitive)
+FILTER_KEYWORDS = [
+    'radio', 'fm ', ' fm', 'music', 'audio', 'listen', 'station',
+    'movie', 'series', 'vod', 'library', 'archive', 'catch-up', 'replay',
+    'classical', 'jazz', 'rock', 'pop', 'hits', 'dance', 'electronic',
+    'news radio', 'sports radio', 'talk radio', 'am ', ' am', '播', '广播',
+    '影视', '电影', '电视剧', '综艺', '娱乐', '音乐', '电台'
+]
+
+# URL patterns that indicate non-live content
+FILTER_URL_PATTERNS = [
+    r'\.mp3$', r'\.aac$', r'\.ogg$', r'\.flac$', r'\.wav$',
+    r'\.mp4$', r'\.mkv$', r'\.avi$', r'\.m4v$', r'\.mov$',
+    r'/radio/', r'/music/', r'/audio/', r'/podcast/',
+    r'/vod/', r'/movie/', r'/series/', r'/archive/',
+    r'radio\.', r'music\.', r'audio\.'
+]
 
 @dataclass
 class ChannelBlock:
@@ -39,14 +53,13 @@ class ChannelBlock:
     lines: List[str]
     extinf_line: str
     url: str
-    metadata: Dict[str, str]
-    channel_type: str = 'live'  # 'live', 'radio', 'media', 'unknown'
+    name: str
+    tvg_id: str
     is_protected: bool = False
-    has_drm: bool = False
-    url_hash: str = ''
+    is_live_tv: bool = True  # Will be set during filtering
 
 class M3UParser:
-    """Robust M3U parser that handles multi-line channel blocks"""
+    """Fast M3U parser with live TV filtering"""
     
     def __init__(self):
         self.channel_blocks: List[ChannelBlock] = []
@@ -70,7 +83,11 @@ class M3UParser:
             # Start of a new channel
             if line.startswith("#EXTINF:"):
                 if current_block:
-                    blocks.append(self._create_block(current_block))
+                    block = self._create_block(current_block)
+                    if self._is_live_tv(block):
+                        blocks.append(block)
+                    else:
+                        logger.debug(f"Filtered out non-live: {block.name}")
                 current_block = [line]
             elif current_block:
                 current_block.append(line)
@@ -79,9 +96,14 @@ class M3UParser:
         
         # Add the last block
         if current_block:
-            blocks.append(self._create_block(current_block))
+            block = self._create_block(current_block)
+            if self._is_live_tv(block):
+                blocks.append(block)
+            else:
+                logger.debug(f"Filtered out non-live: {block.name}")
         
         self.channel_blocks = blocks
+        logger.info(f"Kept {len(blocks)} live TV channels after filtering")
         return blocks
     
     def _create_block(self, lines: List[str]) -> ChannelBlock:
@@ -95,13 +117,11 @@ class M3UParser:
                 url = line
                 break
         
-        # Extract metadata from EXTINF
-        metadata = self._parse_extinf(extinf_line)
+        # Extract name and tvg-id
+        name = self._extract_name(extinf_line)
+        tvg_id = self._extract_tvg_id(extinf_line)
         
-        # Determine channel type
-        channel_type = self._determine_channel_type(extinf_line, url, lines)
-        
-        # Check for DRM/protection indicators
+        # Check for DRM/protection
         is_protected = any(
             'drm' in line.lower() or 
             'clearkey' in line.lower() or
@@ -112,79 +132,48 @@ class M3UParser:
             for line in lines
         )
         
-        has_drm = any(
-            'clearkey' in line.lower() or
-            'license' in line.lower()
-            for line in lines
-        )
-        
-        # Create a hash for duplicate detection
-        url_hash = self._create_url_hash(url, metadata)
-        
         return ChannelBlock(
             lines=lines,
             extinf_line=extinf_line,
             url=url,
-            metadata=metadata,
-            channel_type=channel_type,
-            is_protected=is_protected,
-            has_drm=has_drm,
-            url_hash=url_hash
+            name=name,
+            tvg_id=tvg_id,
+            is_protected=is_protected
         )
     
-    def _determine_channel_type(self, extinf_line: str, url: str, lines: List[str]) -> str:
-        """Determine if channel is live TV, radio, or media library"""
-        combined_text = (extinf_line + ' ' + url + ' ' + ' '.join(lines)).lower()
+    def _extract_name(self, extinf_line: str) -> str:
+        """Extract channel name from EXTINF line"""
+        if ',' in extinf_line:
+            return extinf_line.split(',')[-1].strip()
+        return "Unknown"
+    
+    def _extract_tvg_id(self, extinf_line: str) -> str:
+        """Extract tvg-id from EXTINF line"""
+        match = re.search(r'tvg-id="([^"]*)"', extinf_line)
+        return match.group(1) if match else ""
+    
+    def _is_live_tv(self, block: ChannelBlock) -> bool:
+        """Determine if a channel is live TV (not radio or media)"""
         
-        # Check for radio/FM indicators
-        radio_keywords = ['radio', 'fm ', ' fm', 'music', 'audio', 'listen', 'station']
-        if any(keyword in combined_text for keyword in radio_keywords):
-            return 'radio'
+        # Combine all text for checking
+        combined_text = f"{block.name} {block.url} {block.extinf_line}".lower()
         
-        # Check for media library/VOD indicators
-        media_keywords = ['movie', 'series', 'vod', 'library', 'archive', 'catch-up', 'replay']
-        if any(keyword in combined_text for keyword in media_keywords):
-            return 'media'
+        # Check for filter keywords
+        for keyword in FILTER_KEYWORDS:
+            if keyword.lower() in combined_text:
+                return False
         
         # Check URL patterns
-        if '.mp3' in url or '.aac' in url or '.ogg' in url:
-            return 'radio'
+        for pattern in FILTER_URL_PATTERNS:
+            if re.search(pattern, block.url.lower()):
+                return False
         
-        if '.mp4' in url or '.mkv' in url or '.avi' in url:
-            return 'media'
+        # If it has .m3u8 or .mpd, it's likely live TV
+        if '.m3u8' in block.url.lower() or '.mpd' in block.url.lower():
+            return True
         
-        # Default to live TV
-        return 'live'
-    
-    def _create_url_hash(self, url: str, metadata: Dict[str, str]) -> str:
-        """Create a hash for duplicate detection"""
-        # Remove query parameters for URL comparison
-        base_url = url.split('?')[0] if url else ''
-        
-        # Use tvg-id if available
-        tvg_id = metadata.get('tvg-id', '')
-        channel_name = metadata.get('name', '')
-        
-        # Combine identifiers
-        hash_string = f"{base_url}|{tvg_id}|{channel_name}"
-        return str(hash(hash_string))
-    
-    def _parse_extinf(self, extinf_line: str) -> Dict[str, str]:
-        """Parse EXTINF line to extract metadata"""
-        metadata = {}
-        
-        # Extract tvg-id, tvg-name, etc.
-        pattern = r'([a-zA-Z0-9_-]+)="([^"]*)"'
-        matches = re.findall(pattern, extinf_line)
-        
-        for key, value in matches:
-            metadata[key] = value
-        
-        # Extract channel name (after the last comma)
-        if ',' in extinf_line:
-            metadata['name'] = extinf_line.split(',')[-1].strip()
-        
-        return metadata
+        # Default to keeping it (better safe than sorry)
+        return True
     
     def generate_playlist(self, blocks: List[ChannelBlock]) -> str:
         """Generate M3U playlist from channel blocks"""
@@ -196,149 +185,100 @@ class M3UParser:
         return '\n'.join(playlist)
 
 class StreamValidator:
-    """Validates streams with focus on live TV"""
+    """Fast stream validator for live TV only"""
     
-    def __init__(self, timeout: int = 8, max_workers: int = 20):
+    def __init__(self, timeout: int = 5, max_concurrent: int = 30):
         self.timeout = timeout
-        self.max_workers = max_workers
+        self.max_concurrent = max_concurrent
         self.session = None
     
-    async def check_stream_async(self, block: ChannelBlock) -> Tuple[bool, int]:
+    async def check_stream(self, block: ChannelBlock) -> Tuple[bool, int]:
         """
-        Asynchronously check if a stream is accessible
-        Different validation rules based on channel type
+        Check if a live TV stream is accessible
+        Returns (keep_channel, status_code)
         """
         url = block.url
-        channel_type = block.channel_type
-        is_protected = block.is_protected
+        if not url:
+            return False, 0
         
-        # Radio stations - quick check
-        if channel_type == 'radio':
-            return await self._check_radio_stream(url)
+        # Protected streams - keep them without checking
+        if block.is_protected:
+            logger.debug(f"Protected stream - keeping: {block.name}")
+            return True, 0
         
-        # Media library - more lenient
-        elif channel_type == 'media':
-            return await self._check_media_stream(url)
-        
-        # Live TV - strict check for non-protected, lenient for protected
-        else:
-            if is_protected:
-                return await self._check_protected_stream(url)
-            else:
-                return await self._check_live_stream(url)
-    
-    async def _check_live_stream(self, url: str) -> Tuple[bool, int]:
-        """Check live TV streams (strict)"""
+        # Regular live streams - quick check
         try:
             async with aiohttp.ClientSession() as session:
-                # Use HEAD request for live streams
-                async with session.head(url, timeout=self.timeout, allow_redirects=True, headers=DEFAULT_HEADERS) as response:
-                    # Live streams should return 200
-                    if response.status == 200:
-                        return True, response.status
-                    elif response.status in [301, 302, 307, 308]:
-                        # Redirects might be okay
+                # Quick HEAD request
+                async with session.head(url, timeout=self.timeout, 
+                                       allow_redirects=True, 
+                                       headers=DEFAULT_HEADERS) as response:
+                    
+                    # Consider 200 or redirects as working
+                    if response.status == 200 or response.status in [301, 302, 307, 308]:
                         return True, response.status
                     else:
+                        logger.debug(f"Bad status {response.status} for {block.name}")
                         return False, response.status
+                        
         except asyncio.TimeoutError:
+            logger.debug(f"Timeout for {block.name}")
             return False, 408
         except Exception as e:
-            logger.debug(f"Live stream check error: {e}")
+            logger.debug(f"Error checking {block.name}: {e}")
             return False, 0
-    
-    async def _check_radio_stream(self, url: str) -> Tuple[bool, int]:
-        """Check radio streams (quick header check)"""
-        try:
-            async with aiohttp.ClientSession() as session:
-                # Quick HEAD request for radio streams
-                async with session.head(url, timeout=3, allow_redirects=True, headers=DEFAULT_HEADERS) as response:
-                    # Radio streams often return 200 or 206
-                    if response.status in [200, 206]:
-                        return True, response.status
-                    elif response.status in [301, 302, 307, 308]:
-                        return True, response.status
-                    else:
-                        return False, response.status
-        except:
-            # Keep radio stations if they fail (might be temporarily offline)
-            return True, 0
-    
-    async def _check_media_stream(self, url: str) -> Tuple[bool, int]:
-        """Check media library streams (lenient)"""
-        try:
-            async with aiohttp.ClientSession() as session:
-                # Use range request for media files
-                headers = {**DEFAULT_HEADERS, 'Range': 'bytes=0-1'}
-                async with session.get(url, timeout=5, allow_redirects=True, headers=headers) as response:
-                    # Media files often return 206 Partial Content
-                    if response.status in [200, 206]:
-                        return True, response.status
-                    elif response.status in [301, 302, 307, 308]:
-                        return True, response.status
-                    else:
-                        return False, response.status
-        except:
-            # Keep media library content (might be large files)
-            return True, 0
-    
-    async def _check_protected_stream(self, url: str) -> Tuple[bool, int]:
-        """Check protected/DASH streams (very lenient)"""
-        try:
-            async with aiohttp.ClientSession() as session:
-                # Minimal check for protected streams
-                headers = {**DEFAULT_HEADERS, 'Range': 'bytes=0-1'}
-                async with session.get(url, timeout=3, allow_redirects=True, headers=headers) as response:
-                    # Accept most responses for protected streams
-                    if response.status < 500:  # Any non-server error
-                        return True, response.status
-                    else:
-                        return False, response.status
-        except:
-            # Always keep protected streams if we can't verify
-            return True, 0
     
     async def validate_batch(self, blocks: List[ChannelBlock]) -> List[ChannelBlock]:
         """Validate multiple streams concurrently"""
         valid_blocks = []
-        tasks = []
+        protected_count = 0
+        working_count = 0
+        dead_count = 0
         
-        # Create tasks for all blocks with URLs
-        for block in blocks:
-            if block.url:
-                task = self.check_stream_async(block)
+        # Process in batches
+        batch_size = 20
+        total_batches = (len(blocks) + batch_size - 1) // batch_size
+        
+        for batch_num in range(total_batches):
+            start = batch_num * batch_size
+            end = min(start + batch_size, len(blocks))
+            batch = blocks[start:end]
+            
+            logger.info(f"Checking batch {batch_num + 1}/{total_batches} ({len(batch)} channels)")
+            
+            tasks = []
+            for block in batch:
+                task = self.check_stream(block)
                 tasks.append((block, task))
-        
-        # Wait for all tasks to complete
-        for block, task in tasks:
-            try:
-                is_working, status = await task
-                if is_working:
-                    valid_blocks.append(block)
-                    if block.channel_type == 'live':
-                        logger.info(f"✓ LIVE: {block.metadata.get('name', 'Unknown')} - {status}")
-                    elif block.channel_type == 'radio':
-                        logger.info(f"📻 RADIO: {block.metadata.get('name', 'Unknown')} - {status}")
-                    elif block.channel_type == 'media':
-                        logger.info(f"🎬 MEDIA: {block.metadata.get('name', 'Unknown')} - {status}")
-                else:
-                    if block.channel_type == 'live':
-                        logger.warning(f"✗ LIVE DEAD: {block.metadata.get('name', 'Unknown')} - Status {status}")
-                        # Don't add to valid_blocks (remove dead live streams)
-                    else:
-                        # Keep radio and media even if check fails
+            
+            # Wait for batch to complete
+            for block, task in tasks:
+                try:
+                    keep, status = await task
+                    
+                    if keep:
                         valid_blocks.append(block)
-                        logger.info(f"✓ KEPT {block.channel_type.upper()}: {block.metadata.get('name', 'Unknown')} (unverifiable)")
-            except Exception as e:
-                logger.error(f"Error checking {block.url}: {e}")
-                # Keep the block if we can't verify (except live streams)
-                if block.channel_type != 'live':
+                        if block.is_protected:
+                            protected_count += 1
+                        else:
+                            working_count += 1
+                            logger.info(f"✓ {block.name} - {status}")
+                    else:
+                        dead_count += 1
+                        logger.warning(f"✗ DEAD: {block.name}")
+                        
+                except Exception as e:
+                    logger.error(f"Error processing {block.name}: {e}")
+                    # Keep if we can't verify (better safe than sorry)
                     valid_blocks.append(block)
+                    if block.is_protected:
+                        protected_count += 1
         
+        logger.info(f"Results: {working_count} working, {dead_count} dead, {protected_count} protected kept")
         return valid_blocks
 
 class PlaylistProcessor:
-    """Main playlist processor"""
+    """Main playlist processor - live TV only"""
     
     def __init__(self):
         self.parser = M3UParser()
@@ -347,6 +287,8 @@ class PlaylistProcessor:
     async def process(self, source_url: str) -> Optional[str]:
         """Main processing function"""
         try:
+            start_time = time.time()
+            
             # Download source playlist
             logger.info(f"Downloading playlist from {source_url}")
             content = self._download_playlist(source_url)
@@ -354,36 +296,28 @@ class PlaylistProcessor:
                 logger.error("Failed to download playlist")
                 return None
             
-            # Parse into blocks
-            logger.info("Parsing playlist...")
+            # Parse and filter for live TV only
+            logger.info("Parsing and filtering for live TV channels...")
             blocks = self.parser.parse(content)
-            logger.info(f"Found {len(blocks)} total items")
             
-            # Count by type
-            live_count = sum(1 for b in blocks if b.channel_type == 'live')
-            radio_count = sum(1 for b in blocks if b.channel_type == 'radio')
-            media_count = sum(1 for b in blocks if b.channel_type == 'media')
-            logger.info(f"Types: {live_count} live, {radio_count} radio, {media_count} media")
+            if not blocks:
+                logger.warning("No live TV channels found in playlist")
+                return None
             
-            # Remove duplicates
+            # Quick duplicate removal
             logger.info("Removing duplicates...")
             blocks = self._remove_duplicates(blocks)
-            logger.info(f"{len(blocks)} items after deduplication")
             
-            # Validate streams (focus on live streams)
-            logger.info("Validating streams (strict for live, lenient for radio/media)...")
+            # Validate streams
+            logger.info("Checking live TV streams...")
             valid_blocks = await self.validator.validate_batch(blocks)
-            
-            # Final count by type
-            final_live = sum(1 for b in valid_blocks if b.channel_type == 'live')
-            final_radio = sum(1 for b in valid_blocks if b.channel_type == 'radio')
-            final_media = sum(1 for b in valid_blocks if b.channel_type == 'media')
-            
-            logger.info(f"Final: {final_live} live, {final_radio} radio, {final_media} media")
             
             # Generate final playlist
             logger.info("Generating final playlist...")
             playlist = self.parser.generate_playlist(valid_blocks)
+            
+            elapsed = time.time() - start_time
+            logger.info(f"Processing completed in {elapsed:.1f} seconds")
             
             return playlist
             
@@ -392,34 +326,36 @@ class PlaylistProcessor:
             return None
     
     def _download_playlist(self, url: str) -> Optional[str]:
-        """Download playlist with retry logic"""
-        for attempt in range(3):
-            try:
-                response = requests.get(
-                    url, 
-                    timeout=15,
-                    headers=DEFAULT_HEADERS,
-                    allow_redirects=True
-                )
-                response.raise_for_status()
-                return response.text
-            except requests.RequestException as e:
-                logger.warning(f"Download attempt {attempt + 1} failed: {e}")
-                if attempt < 2:
-                    time.sleep(3)
-        return None
+        """Download playlist"""
+        try:
+            response = requests.get(
+                url, 
+                timeout=10,
+                headers=DEFAULT_HEADERS,
+                allow_redirects=True
+            )
+            response.raise_for_status()
+            return response.text
+        except requests.RequestException as e:
+            logger.warning(f"Download failed: {e}")
+            return None
     
     def _remove_duplicates(self, blocks: List[ChannelBlock]) -> List[ChannelBlock]:
-        """Remove duplicate channels based on URL hash"""
-        seen_hashes = set()
+        """Remove duplicate channels based on URL"""
+        seen_urls = set()
         unique_blocks = []
         
         for block in blocks:
-            if block.url_hash not in seen_hashes:
-                seen_hashes.add(block.url_hash)
+            if block.url and block.url not in seen_urls:
+                seen_urls.add(block.url)
                 unique_blocks.append(block)
-            else:
-                logger.debug(f"Removed duplicate: {block.metadata.get('name', 'Unknown')}")
+            elif not block.url:
+                # Skip blocks without URLs
+                pass
+        
+        removed = len(blocks) - len(unique_blocks)
+        if removed > 0:
+            logger.info(f"Removed {removed} duplicate channels")
         
         return unique_blocks
 
@@ -434,14 +370,18 @@ async def main():
     if playlist:
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(playlist)
-        logger.info(f"Playlist saved to {output_file}")
         
-        # Print summary
+        # Final stats
         lines = playlist.splitlines()
         channels = [l for l in lines if l.startswith('#EXTINF:')]
-        logger.info(f"Final playlist: {len(channels)} channels, {len(lines)} total lines")
+        
+        logger.info("=" * 50)
+        logger.info(f"✅ SUCCESS: Playlist saved to {output_file}")
+        logger.info(f"📺 Live TV channels: {len(channels)}")
+        logger.info(f"📊 Total lines: {len(lines)}")
+        logger.info("=" * 50)
     else:
-        logger.error("Failed to process playlist")
+        logger.error("❌ Failed to process playlist")
         sys.exit(1)
 
 if __name__ == "__main__":
