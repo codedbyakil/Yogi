@@ -1,29 +1,65 @@
-name: Auto Update M3U
+name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    # Runs every 10 minutes
+    - cron: '*/10 * * * *'
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  update:
+  update-playlist:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Download latest playlist
-        run: |
-          curl -L "https://m3u.8088y.fun/testing.m3u" -o main.m3u
-
-      - name: Commit if changed
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add main.m3u
-          git diff --cached --quiet || git commit -m "Auto update playlist"
-          git push
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Download playlist
+      run: |
+        echo "Downloading playlist from source..."
+        curl -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+          -H "Accept: */*" \
+          -H "Referer: https://m3u.8088y.fun/" \
+          --connect-timeout 10 \
+          --max-time 30 \
+          -o main.m3u \
+          https://m3u.8088y.fun/testing.m3u
+        
+        # Check if download was successful
+        if [ -f main.m3u ] && [ -s main.m3u ]; then
+          echo "✅ Playlist downloaded successfully"
+          echo "File size: $(wc -c < main.m3u) bytes"
+          echo "First line: $(head -1 main.m3u)"
+        else
+          echo "❌ Download failed"
+          exit 1
+        fi
+    
+    - name: Check for changes
+      id: git-check
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add main.m3u
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected"
+          echo "changed=true" >> $GITHUB_OUTPUT
+          
+          # Show what changed (first few lines)
+          echo "Changes preview:"
+          git diff --staged --stat
+        fi
+    
+    - name: Commit and push if changed
+      if: steps.git-check.outputs.changed == 'true'
+      run: |
+        git commit -m "Auto-update playlist $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        git push
+        
+        echo "✅ Changes committed and pushed"
