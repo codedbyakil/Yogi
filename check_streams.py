@@ -6,6 +6,11 @@ output = sys.argv[2]
 
 timeout = 8
 
+headers = {
+    "User-Agent": "Mozilla/5.0",
+    "Range": "bytes=0-1024"
+}
+
 with open(source, "r", encoding="utf-8", errors="ignore") as f:
     lines = f.readlines()
 
@@ -18,8 +23,8 @@ while i < len(lines):
         url = lines[i+1].strip()
 
         try:
-            r = requests.head(url, timeout=timeout, allow_redirects=True)
-            if r.status_code < 400:
+            r = requests.get(url, headers=headers, timeout=timeout, stream=True)
+            if r.status_code in [200, 206]:
                 out.append(info)
                 out.append(url + "\n")
         except:
