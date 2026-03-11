@@ -9978,44 +9978,10 @@ http://199.168.96.106:1935/blessingtv-tamillive/mystream/playlist.m3u8
 https://live.thendralcloud.in/thendraltv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="arram_tv" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1733831106_IMG-20241210-WA0197.jpg" group-title="Local Channels",Arram Tv
 http://hdstreambox.in:1935/Arramtv/livetv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Hotstar 4K Tamil
-https://live12p.akt.hotstar-cdn.net/cmaf/live/2108400/inallow-icct20wc-2026/tam/1540062397/15mindvrm013a4e2de894204cfc98f4f64e2f73affc08march2026/master_a.m3u8|cookie=hdntl=exp=1773059401~acl=/*~data=hdntl~hmac=9d0990cfc91f24a77ae62ca534e62b5f805ee177d8932f8d187fe50abf6c6475&user-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&referer=https://www.hotstar.com&origin=https://www.hotstar.com
-#EXTINF:-1 tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Hotstar 4K English
-https://live11p.akt.hotstar-cdn.net/cmaf/live/2108387/inallow-icct20wc-2026/eng/1540062397/15mindvrm013a4e2de894204cfc98f4f64e2f73affc08march2026/master_a.m3u8|cookie=hdntl=exp=1773059401~acl=/*~data=hdntl~hmac=9d0990cfc91f24a77ae62ca534e62b5f805ee177d8932f8d187fe50abf6c6475&user-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&referer=https://www.hotstar.com&origin=https://www.hotstar.com
-#EXTINF:-1 tvg-id="1106" group-title="IND vs NZ | FINAL" tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900", Hotstar 1080p Tamil
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Hotstar;in.startv.hotstar.links_macha_official(Android/15)","Telegram":"@vaathala1","Creator":"@vaathala1"}
-https://c2ag.short.gy/n/tamil.m3u8
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.TAMIL.HD.in" tvg-name="Star Sports 1 Tamil HD" tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Star Sports 1 Tamil HD (jtp)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337
-#EXTVLCOPT:http-user-agent=Exoplayer
-https://m3u.8088y.fun/jtvp/Star_Sports_1_Tamil_HD.mpd?tk=testing
-#EXTINF:-1 tvg-id="Star Sports 1 Tamil" tvg-name="Star Sports 1 Tamil" tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL",Star Sports 1 Tamil (jtp)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d0d750ebd52b5756aa7fb833f61ceece:4ae62a20c030c918aad24193c1dda229
-#EXTVLCOPT:http-user-agent=Exoplayer
-https://m3u.8088y.fun/jtvp/Star_Sports_1_Tamil.mpd?tk=testing
-#EXTINF:-1 tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Star Sports 2 Tamil (jstar)
-https://jcevents.hotstar.com/bpk-tv/4db6f833701e78ae4443cb268020f03b/Fallback/4db6f833701e78ae4443cb268020f03b.m3u8|Cookie=hdntl=exp=1773046632~acl=%2f*~id=181e2000425492b3649d04d8edd95a17~data=hdntl~hmac=f5ba825856d733875f94fd8635e36107c46cdcd870e35d0d8d5d86e884640c55&User-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)&Origin=https%3A%2F%2Fwww.hotstar.com&Referer=https%3A%2F%2Fwww.hotstar.com%2F
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.HD.in" tvg-name="Star Sports 1 HD" tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Star Sports 1 HD 50fps
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c
-#EXTVLCOPT:http-user-agent=Exoplayer
-https://m3u.8088y.fun/jtvp/Star_Sports_1_HD.mpd?tk=testing
-#EXTINF:-1 tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Star Sports 1 (jstar)
-https://livetv-push.hotstar.com/dash/live/2002464-b/sshd1livetvwv/master.mpd?tk=testing?|Cookie=hdntl=exp=1773046259~acl=*sshd1livetv*~id=6492b53c266835ec239d3edf1eb42cf8~data=hdntl~hmac=40a5aa4b3a7f7718ce76385e28da18b733a7b9129d42db78fb265788a174790b&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com&User-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169%20(Android/15)&drmScheme=clearkey&drmLicense=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d
-#EXTINF:-1 tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Prime English
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ptptpteoh7/out/v1/564bb083afea4561a5a60c4447258379/cenc.mpd|drmScheme=clearkey&drmLicense=470a5bda0ae8965c3ab4004c302bc1c8:b04888df6ed570c9435b97471504bd9b
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=470a5bda0ae8965c3ab4004c302bc1c8:b04888df6ed570c9435b97471504bd9b
-#EXTINF:-1 tvg-id="" tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Prime English 50fps
-#EXTVLCOPT:http-user-agent=Denver1769
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/285xdypigu/out/v1/41e86c3d386a4406afb3620876274222/cenc.mpd?
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9909e33838e1152cc512c4636f513f8f:02f67060c94bcc3307280f505ad508ab
-#EXTINF:-1 tvg-id="" tvg-logo="https://im.rediff.com/cricket/2026/mar/06final-india-nz.jpg?w=670&h=900" group-title="IND vs NZ | FINAL", Prime English 50fps (backup)
-#EXTVLCOPT:http-user-agent=Denver1769
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nn1qrdjaha/out/v1/bc4fa7d9cebf47858bebf14ad589025e/cenc.mpd?
+#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1080/sources/r1/cms/prod/6062/1773210706062-i" group-title="Schedule Announcement: TATA IPL 2026", Hotstar Tamil
+https://live07.hotstar.com/hls/live/2034629/inallow-ftb-2025/tam/1540065427/15mindvrm019fa76930170b4e7fb458b96aaec6aa7c11march2026/master_ap_1080_6.m3u8|cookie=hdntl=exp=1773278830~acl=%2F*~id=686f82161e536863409858df48126ea4~data=hdntl~hmac=a0aa1383ac3c6facdc94be713a6c53296cc787be37f41906765efe8a3669a57d&user-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&referer=https://www.hotstar.com&origin=https://www.hotstar.com
+#EXTINF:-1 tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1080/sources/r1/cms/prod/6062/1773210706062-i" group-title="Schedule Announcement: TATA IPL 2026", Hotstar English
+https://live07.hotstar.com/hls/live/2034621/inallow-ftb-2025/eng/1540065427/15mindvrm019fa76930170b4e7fb458b96aaec6aa7c11march2026/master_ap_1080_6.m3u8|cookie=hdntl=exp=1773278830~acl=%2F*~id=686f82161e536863409858df48126ea4~data=hdntl~hmac=a0aa1383ac3c6facdc94be713a6c53296cc787be37f41906765efe8a3669a57d&user-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&referer=https://www.hotstar.com&origin=https://www.hotstar.com
 -------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 tvg-id="STAR.SPORTS.1.TAMIL.HD.in" tvg-name="Star Sports 1 Tamil HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/SS1TAMHD_Thumbnail-v1/SS1TAMHD_Thumbnail.png" group-title="Sports", Star Sports 1 Tamil HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -10226,11 +10192,11 @@ https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?tk=testing?
 #EXTM3U
-#EXTINF:-1 tvg-id="141305" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141305_6002_MSP_ICN_FC-Web.jpg" tvg-language="english" group-title="Fancode Events",ENG | Cricket - Mumbai Spartans Vs India Captains (1080p)
+#EXTINF:-1 tvg-id="141305" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141305_6002_MSP_ICN_FC-Web.jpg" tvg-language="english" group-title="Fancode Events",ENG | Cricket - India Captains Vs Mumbai Spartans (1080p)
 https://in-mc-flive.fancode.com/mumbai/141305_english_hls_4175807c9651232_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773321138~_GO=Generated~acl=/mumbai/141305_english_hls_4175807c9651232_1ta-di_h264/*~Signature=AR77L-afUtLO1LKFC2zu6XRQQYCE-pXtdKqS_UuFzfs9zXMLvM_lo7M6zvb2qMYfZEIRssV3C92LPh2o4NDJqW1uzRUO|User-Agent=ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#EXTINF:-1 tvg-id="140709" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140709_5971_SRN_CAY_fc-Web.jpg" tvg-language="english" group-title="Fancode Events",ENG | Cricket - Suriname Vs Cayman Islands (1080p)
+https://in-mc-flive.fancode.com/mumbai/140709_english_hls_c3341c3d0659322_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773325151~_GO=Generated~acl=/mumbai/140709_english_hls_c3341c3d0659322_1ta-di_h264/*~Signature=AR77L-bP-152AA_MaaK2S0A9Ik3V6tBUUkLLRmSFdtOqBEhm_G8QFXTjIi56pjEL-Ay7669zOPT4zCOSZsMW6f9vnS8F|User-Agent=ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 #EXTINF:-1 tvg-id="140867" tvg-logo="https://images.fancode.com/aig/match/v1773230659658/140867_CASACARDS_APP.png" tvg-language="english" group-title="Fancode Events",ENG | Football - Ratchaburi Vs Gamba Osaka (1080p)
 https://in-mc-flive.fancode.com/mumbai/140867_english_hls_246c70c5c570736_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773317959~_GO=Generated~acl=/mumbai/140867_english_hls_246c70c5c570736_1ta-di_h264/*~Signature=AR77L-aFf8XwpqS6aLV7HwRRe6kckfCmXIzDbLmLz8lvyhN_m-XMlvV5Qjf2xwHgAZ9ZoXpAcdWFcTQ8dR4trW8If-cJ|User-Agent=ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 #EXTM3U
-#EXTINF:-1 tvg-id="1090506110" tvg-name="The Hundred 2026 (Women's)" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015999/1773143576563356_the_hundred_auction_womens_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Auction - 11 Mar 2026
-https://sonymtmnew.akamaized.net/hls/live/2005444/DAI07ME-V3/master.m3u8?hdnea=exp=1773276694~acl=/*~id=15360904955166336759530573763030~hmac=c964afbe86679255bffa89c46799b82128b80bf8b3b4aac2f27293f99d9dc2fe|User-Agent=com.sonyliv/6.22.4 (Android 9; en_GB; SM-X710N; Build/PQ3B.190801.12191611)&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=4b994361d3602618414690e54a2e5492-1773234600113
 #EXTM3U
