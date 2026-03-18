@@ -188,6 +188,8 @@ https://m3u.8088y.fun/live/Vikatan_TV.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=eae838ccd75d4a1fbff6fd7dd1c97780:8259ce0c112725a4d2c94d154207425f
 #EXTINF:-1 tvg-id="sun194403" tvg-name="Sun TV HD" tvg-logo="https://sund-images.sunnxt.com/195489/640x360_SuryaTVHDDolbyVision_195489_b51cb569-382c-4dc4-b9ec-5c09396ebd2a.jpg" group-title="Entertainment", Surya TV HD
 https://m3u.8088y.fun/sxt/SuryaTV.mpd?tk=testing
+#EXTINF:-1 tvg-id="sun194403" tvg-name="Sun TV HD" tvg-logo="https://sund-images.sunnxt.com/195489/640x360_SuryaTVHDDolbyVision_195489_b51cb569-382c-4dc4-b9ec-5c09396ebd2a.jpg" group-title="Entertainment", Surya TV HDR
+https://m3u.8088y.fun/live/suryatvd.m3u8?tk=testing
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -10214,4 +10216,6 @@ https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live
 https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?tk=testing?
 #EXTM3U
 #EXTM3U
+#EXTINF:-1 tvg-id="1090506952" tvg-name="UEFA Youth League 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016254/1773654982357712_UYL_QF_Real_Madrid-vs-Sporting_CP_live_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Real Madrid vs Sporting CP - 18 Mar 2026
+https://sonymtmnew.akamaized.net/hls/live/2022316/DAI12ME-V3/master.m3u8?hdnea=exp=1773880203~acl=/*~id=81106145091430873733986479909814~hmac=e971035cb57482206fcaa79da22bda8fb6ca44ecc6a816e046818d1705e76080|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=06dea7e7021aefc857d0abab45c6685a-1773841800134
 #EXTM3U
