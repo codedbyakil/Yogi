@@ -9849,6 +9849,14 @@ rtmp://103.78.164.62/static/SSSHD
 rtmp://103.78.164.62/static/MMTVHD
 #EXTINF:-1 tvg-id="shalini_tv_hd" tvg-logo="" group-title="Local Channels",Shalini Tv Hd
 rtmp://103.78.164.62/static/SHALINITVHD
+#EXTINF:-1 tvg-id="prime_india" tvg-logo="" group-title="Local Channels",TAMIL THIRAI TV
+rtmp://tn.streamezy.in:1935/tthirai/live
+#EXTINF:-1 tvg-id="prime_india" tvg-logo="" group-title="Local Channels",Prime India
+https://tn.streamezy.in/hls/prime/primeindia.m3u8
+#EXTINF:-1 tvg-id="prime_india" tvg-logo="" group-title="Local Channels",THIRAI TV
+https://live.apcloud.in/thiraitv/thiraitvhd/index.m3u8
+#EXTINF:-1 tvg-id="prime_india" tvg-logo="" group-title="Local Channels",THIRAI TV PLUS
+https://live.apcloud.in/thiraimusic/thiraimusichd/index.m3u8
 #EXTINF:-1 tvg-id="punithantv" tvg-logo="" group-title="Local Channels",Punithantv
 http://cloudstream4k.com:1935/channel15/ponithatv/index.m3u8
 #EXTINF:-1 tvg-id="dharshan_tv_hd" tvg-logo="" group-title="Local Channels",Dharshan Tv Hd
@@ -9985,8 +9993,6 @@ https://5a1178b42cc03.streamlock.net/8182/8182/playlist.m3u8
 http://gemrtmp.circle7stream.com/gem/gemtvplc/playlist.m3u8
 #EXTINF:-1 tvg-id="senthur_tv_2" tvg-logo="" group-title="Local Channels",Senthur Tv
 http://hlssenthurtv.suriyantv.in/live/senthurtv/playlist.m3u8
-#EXTINF:-1 tvg-id="prime_india" tvg-logo="" group-title="Local Channels",Prime India
-https://tn.streamezy.in/hls/prime/primeindia.m3u8
 #EXTINF:-1 tvg-id="jayam_tv_6" tvg-logo="" group-title="Local Channels",Jayam Tv
 rtmp://in-south-blr.livepush.io/live/rtmp_855a06c27c63420e9eb56e6ff68dd2v7
 #EXTINF:-1 tvg-id="vds_tv_1" tvg-logo="" group-title="Local Channels",Vds Tv
@@ -10225,7 +10231,7 @@ https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live
 #EXTM3U
 #EXTM3U
 #EXTINF:-1 tvg-id="1090507704" tvg-name="UEFA International Friendlies" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016470/1774040646020735_INT_Friendlies26_Austria_vs_Ghana_20mar_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Austria vs Ghana - 27 Mar 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/Austria_2703/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=179d92ad2ca6ed11a394be3ccd40bc80-1774631400127
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/Austria_2703/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9c31aaad4378325b76b6f80f56cf0407-1774635000113
 #EXTINF:-1 tvg-id="1090507705" tvg-name="UEFA International Friendlies" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016471/1774041329837959_INT_Friendlies26_Montenegro_vs_Andorra_20mar_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Montenegro vs Andorra - 27 Mar 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/Monteneg2703/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=179d92ad2ca6ed11a394be3ccd40bc80-1774631400127
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/Monteneg2703/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=9c31aaad4378325b76b6f80f56cf0407-1774635000113
 #EXTM3U
