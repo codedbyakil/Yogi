@@ -1777,6 +1777,10 @@ https://southsidefmkzn.out.airtime.pro/southsidefmkzn_a
 #EXTINF:-1 type="radio" group-title="Radio", Lankasri FM - UK
 http://media2.lankasri.fm/;stream.mp3
 =============================NEW RELEASE============================
+#EXTINF:-1 tvg-logo="https://assets-in.bmscdn.com/discovery-catalog/events/et00484111-chnjcdftyt-landscape.jpg" type="movie" group-title="New Release", Seetha Payanam 2026
+https://pixeldrain.dev/api/file/d7Ljpa6j?download
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNTg0MThhYzgtMzNkMC00NDRmLWI4ZmUtNzRkY2I2OWJiMjE2XkEyXkFqcGc@._V1_.jpg" type="movie" group-title="New Release", Sabdham 2025
+https://pixeldrain.dev/api/file/BQyBcNNt?download
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2NhMDM5MTktYjYwMS00OTMzLWFmZjgtYjNlMjdhMGQ2N2VmXkEyXkFqcGc@._V1_QL75_UY562_CR11,0,380,562_.jpg" type="movie" group-title="New Release", Funky 2026
 https://pixeldrain.dev/api/file/6mq7B4Ex?download
 #EXTINF:-1 tvg-logo="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABT8bC2Kth_-R58bFmWZxqzCUCg9JoFX76m_rlsOBPQYT7KkV_hwYH1zfj0NZTPziXwJeOsM0LkL6y84JXuj-n5GTv91aO02N_Mo2.webp?r=696" type="movie" group-title="New Release",With Love
@@ -10101,7 +10105,7 @@ https://m3u.8088y.fun/jtvp/DD_Sports.mpd?tk=testing
 https://m3u.8088y.fun/live/Cricket_Gold.m3u8?tk=testing
 -EXTRA SPORTS-
 #EXTINF:-1 tvg-id="832.astro" tvg-name="Astro Cricket" tvg-logo="https://i.ibb.co/wrjJqQ50/Picsart-25-09-02-14-04-46-017.png" group-title="Sports", Astro Cricket
-http://astv.life:8080/live/Irshad123456/Irshad654321/848829.ts
+https://vt-ip.vodep39240327.workers.dev/1973.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FIFA+" tvg-logo="https://i.ibb.co/wr484xdD/Picsart-25-09-02-18-15-09-430.png" group-title="Sports", FIFA+
 https://bd4f89f2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/WGlhb21pLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8?tk=testing
 #EXTINF:-1 tvg-id="" tvg-name="TNT Sports 1" tvg-logo="https://i.ibb.co/bRXmb9nB/Picsart-25-09-02-14-06-41-675.png" group-title="Sports", TNT Sports 1
