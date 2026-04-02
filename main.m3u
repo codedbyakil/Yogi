@@ -8038,6 +8038,10 @@ http://nakkubettatv.livebox.co.in/nbtvhls/nbtv.m3u8
 #EXTINF:-1 tvg-id="family_channel" tvg-logo="https://i.ibb.co/x8gfWspD/Picsart-252-025-55-29-757.png" group-title="International",Family Channel
 rtmp://familychannel.livebox.co.in:1935/familychannel/live
 ================================LOCAL CHANNELS================================
+#EXTINF:-1 tvg-logo="" group-title="Local Channels",PCN CHANNEL
+https://pcntv.wmsdigital.in/hls/gtv/stream.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Local Channels",bluemoon TV
+https://rtmp.bmlive.net/bms/bmtv/index.m3u8
 -Rasi Network-
 #EXTINF:-1 tvg-id="rasi_tv_hd" tvg-logo="https://i.ibb.co/4Zptmxxp/rasitv-hd.png" group-title="Local Channels",Rasi Tv Hd
 https://rasinetworks.in/live/rasitvhd/index.mpd
