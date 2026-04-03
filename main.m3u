@@ -8044,6 +8044,8 @@ rtmp://familychannel.livebox.co.in:1935/familychannel/live
 https://pcntv.wmsdigital.in/hls/gtv/stream.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Local Channels",bluemoon TV
 https://rtmp.bmlive.net/bms/bmtv/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Local Channels", திரைத்தமிழ் டிவி
+https://tn.streamezy.in/hls/tthirai/live.m3u8
 -Rasi Network-
 #EXTINF:-1 tvg-id="rasi_tv_hd" tvg-logo="https://i.ibb.co/4Zptmxxp/rasitv-hd.png" group-title="Local Channels",Rasi Tv Hd
 https://rasinetworks.in/live/rasitvhd/index.mpd
