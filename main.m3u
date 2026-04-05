@@ -53,7 +53,7 @@ https://m3u.8088y.fun/z5/Zee_Tamil_HD.m3u8?tk=testing
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e9dd4aa4accd53188659c4a7b45bd8c4:920ff1a99835cfeb26d4c0db04ee58bd
+#KODIPROP:inputstream.adaptive.license_key=1ab3810fc9505eaf9121202a5acf3656:eab9ac2b629171ed27c105ea62ea4fda
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.1.0_3012 (Linux;Android 9) ExoPlayerLib/2.18.1
 #EXTINF:-1 tvg-id="0-9-zeetamil" tvg-name="Zee Tamil HD" tvg-logo="https://tatalogo.pages.dev/608.png" group-title="Entertainment", Zee Tamil HD
 https://m3u.8088y.fun/jtvp/zee_tamil_HD.mpd?tk=testing
@@ -67,11 +67,11 @@ https://m3u.8088y.fun/ast/ZeeTamil.mpd?tk=testing
 #EXTINF:-1 tvg-id="0-9-9z5383487" tvg-name="Zee Tamil" tvg-logo="https://tatalogo.pages.dev/608.png" group-title="Entertainment", Zee Tamil (zee5)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 #EXTHTTP:{"Origin":"https://www.zee5.com","Referer":"https://www.zee5.com/"}
-#https://m3u.8088y.fun/z5/Zee_Tamil.m3u8?tk=testing
+https://m3u.8088y.fun/z5/Zee_Tamil.m3u8?tk=testing
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5036572721315d12aaf769bb142f43fe:86fefa8b4f86639d644f03f7bccdc882
+#KODIPROP:inputstream.adaptive.license_key=3b5583d76a465054a7d444b307a9ff21:3f8d9e2207221a0cbcaf120754e4b2e4
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.1.0_3012 (Linux;Android 9) ExoPlayerLib/2.18.1
 #EXTINF:-1 tvg-id="0-9-9z5383487" tvg-name="Zee Tamil" tvg-logo="https://tatalogo.pages.dev/608.png" group-title="Entertainment", Zee Tamil
 https://m3u.8088y.fun/jtvp/zee_tamil.mpd?tk=testing
@@ -80,7 +80,7 @@ https://m3u.8088y.fun/jtvp/zee_tamil.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=94d31d976768554b892f7037db09e0c9:08c5154b6cdcb6e0fc99d9d4e6298cb3
 #EXTINF:-1 tvg-id="429" tvg-name="Colors Tamil HD" tvg-logo="https://tatalogo.pages.dev/674.png" group-title="Entertainment", Colors Tamil HD
-https://m3u.8088y.fun/jtvp/Colors_Tamil_HD.mpd?tk=testing
+#https://m3u.8088y.fun/jtvp/Colors_Tamil_HD.mpd?tk=testing
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -228,7 +228,7 @@ https://m3u.8088y.fun/jtvp/Vijay_Super.mpd?tk=testing
 https://m3u.8088y.fun/jtvp/Vijay_Takkar.mpd?tk=testing
 #EXTINF:-1 tvg-id="0-9-224" tvg-name="Zee Thirai HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/ZETIHD_Thumbnail-v2/ZETIHD_Thumbnail.png" group-title="Movies", Zee Thirai HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f533110565935b4899a9440721d330fc:fafd814a78b22b6ada60c15964e1d09b
+#KODIPROP:inputstream.adaptive.license_key=9ecfc67bf2dd54fa84495c4c299c51ec:85337048d7be42ef66f6198a99376fa7
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 https://m3u.8088y.fun/jtvp/zee_thirai_HD.mpd?tk=testing
 #EXTINF:-1 tvg-id="0-9-224" tvg-name="Zee Thirai HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/ZETIHD_Thumbnail-v2/ZETIHD_Thumbnail.png" group-title="Movies", Zee Thirai HD (zee5)
@@ -10238,10 +10238,20 @@ https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live
 https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?tk=testing?
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 tvg-id="1090513704" tvg-name="Chetak Screen Awards" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016937/1775379981709798_SCREEN_AWARDS_simulcast_landscape_Thumb.jpg" tvg-language="Hindi" group-title="Sliv events",HIN | Chetak Screen Awards
-https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/DAI25ME-CSA/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=22520cb01194a992d5f7a3029df90049-1775399400178
-#EXTINF:-1 tvg-id="1090516994" tvg-name="Indian Football League 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016579/1774439731299819_IFC_Sreenidi_Deccan_FC_vs_Aizawl_FC_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Sreenidi Deccan FC vs Aizawl FC - 5 Apr 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/Sreenidi0504/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=22520cb01194a992d5f7a3029df90049-1775399400178
+#EXTINF:-1 tvg-id="1090513704" tvg-name="Chetak Screen Awards" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016943/1775399659114986_SCREEN_AWARDS_rev_simulcast_landscape_Thumb.jpg" tvg-language="Hindi" group-title="Sliv events",HIN | Chetak Screen Awards
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/DAI25ME-CSA/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=492d5ccb0d4d5afc335f3a3213ab8642-1775403000174
+#EXTINF:-1 tvg-id="1090516993" tvg-name=" The Emirates FA Cup 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600684666142_FC_Cup_26_QF_West-Ham_United_vs_Leeds_United_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | West Ham United vs Leeds United - Quarter-Final - 5 Apr 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/WestHamU0504/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=492d5ccb0d4d5afc335f3a3213ab8642-1775403000174
+#EXTINF:-1 tvg-id="1090516993" tvg-name=" The Emirates FA Cup 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600684666142_FC_Cup_26_QF_West-Ham_United_vs_Leeds_United_landscape_thumb.jpg" tvg-language="Hindi" group-title="Sliv events",HIN | West Ham United vs Leeds United - Quarter-Final - 5 Apr 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/WestHamU0504/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=492d5ccb0d4d5afc335f3a3213ab8642-1775403000174
+#EXTINF:-1 tvg-id="1090516993" tvg-name=" The Emirates FA Cup 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600684666142_FC_Cup_26_QF_West-Ham_United_vs_Leeds_United_landscape_thumb.jpg" tvg-language="Tamil" group-title="Sliv events",TAM | West Ham United vs Leeds United - Quarter-Final - 5 Apr 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/WestHamU0504/TAM/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=492d5ccb0d4d5afc335f3a3213ab8642-1775403000174
+#EXTINF:-1 tvg-id="1090516993" tvg-name=" The Emirates FA Cup 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600684666142_FC_Cup_26_QF_West-Ham_United_vs_Leeds_United_landscape_thumb.jpg" tvg-language="Telugu" group-title="Sliv events",TEL | West Ham United vs Leeds United - Quarter-Final - 5 Apr 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/WestHamU0504/TEL/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=492d5ccb0d4d5afc335f3a3213ab8642-1775403000174
+#EXTINF:-1 tvg-id="1090516993" tvg-name=" The Emirates FA Cup 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016634/1774600684666142_FC_Cup_26_QF_West-Ham_United_vs_Leeds_United_landscape_thumb.jpg" tvg-language="Kannada" group-title="Sliv events",KAN | West Ham United vs Leeds United - Quarter-Final - 5 Apr 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/WestHamU0504/KAN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=492d5ccb0d4d5afc335f3a3213ab8642-1775403000174
+#EXTINF:-1 tvg-id="1090516992" tvg-name="Bundesliga 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016806/1775056642442385_bliga26_MD28_Eintracht_Frankfurt_vs_FC_Koln_1apr_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Eintracht Frankfurt vs FC Koln - MD 28 - 5 Apr 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000301/Eintrach0504/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=492d5ccb0d4d5afc335f3a3213ab8642-1775403000174
 #EXTINF:-1 tvg-id="1090514991" tvg-name="Bundesliga 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016629/1774527175601346_BLIGA_26_MD28_Union-Berlin-vs-St-Pauli_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Union Berlin vs St. Pauli - MD 28 - 5 Apr 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/UnionBer0504/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=22520cb01194a992d5f7a3029df90049-1775399400178
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/UnionBer0504/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=492d5ccb0d4d5afc335f3a3213ab8642-1775403000174
 #EXTM3U
