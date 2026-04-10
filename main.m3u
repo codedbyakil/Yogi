@@ -102,7 +102,7 @@ https://m3u.8088y.fun/jtvp/Jaya_TV_HD.mpd?tk=testing
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3b214e599f3f5fb3abd92164fa152caf:ec6050021a558cd31511717e1c0912e6
+#KODIPROP:inputstream.adaptive.license_key=1f0a57e1b999520d99fc92b43630e722:fa59423030d70507ec1cac2cfac2050d
 #EXTVLCOPT:http-user-agent=AuthoIPTV (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) autho-iptv/0.6.4-beta Electron/34.5.7
 #EXTINF:-1 tvg-id="ts439" tvg-name="Raj TV" tvg-logo="https://tatalogo.pages.dev/439.png" group-title="Entertainment", Raj TV
 https://m3u.8088y.fun/jtvp/Raj_TV.mpd?tk=testing
@@ -10231,3 +10231,6 @@ https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?tk=testing?
+#EXTM3U
+#EXTM3U
+#EXTM3U
