@@ -7955,11 +7955,6 @@ https://firstshowsvodyupp.akamaized.net/ondemandvideo/tamile_movies/palmstone/26
 https://firstshowsvodyupp.akamaized.net/ondemandvideo/21_03_2025/dora_master_fs/2502889/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://d229kpbsb5jevy.cloudfront.net/firstshows/content/common/movie/images/custattr-movie-movie-thumbnail-2x3-movie-9ymeq6rzaos.jpeg" type="movie" group-title="FirstShows", Yendha Nerathilum
 https://firstshowsvodyupp.akamaized.net/ondemandvideo/tamile_movies/palmstone/5.1/yenda_nerathilum/335377/hls/stream.m3u8
-=============================MEWATCH============================
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3af8f0a84e2054bd31e09280264abe8e:e32b31f09078e3f6e3eef5bdd826098c
-#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/0B338F36-3E5A-4C43-A4DA-06728DB11B05/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="mewatch", Baby and Baby
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1644336/assetType/media/assetFileId/20443800/contextType/PLAYBACK/isAltUrl/False/a.mpd
 ================================ INTERNATIONAL ===============================
 #EXTINF:-1 tvg-id="3_tamil_tv" tvg-chno="185" tvg-logo="https://tataprime.files.wordpress.com/2024/03/20240306_0719066048027381852313754.png" group-title="International",3 Tamil Tv
 https://6n3yogbnd9ok-hls-live.5centscdn.com/threetamil/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
@@ -10236,3 +10231,6 @@ https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?tk=testing?
+#EXTM3U
+#EXTINF:-1 tvg-id="1090525483" tvg-name="Indian Football League 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016586/1774442040682617_IFC_Namdhari_FC_vs_Shillong_Lajong_FC_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Namdhari FC vs Shillong Lajong FC - 10 Apr 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2022319/IFL_Namd1004/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=b2b11b2b1de3ce75c3f9d2802c9a79b9-1775815800117
