@@ -12,7 +12,9 @@ https://m3u.8088y.fun/sxt/Sun_TV_HD.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f415c124a07c595b97c43cc9a96ded30:59e6c93d4fe43353b34a71eb87185aaa
 #EXTINF:-1 tvg-id="sun194403" tvg-name="Sun TV HD" tvg-logo="https://tatalogo.pages.dev/521.png" group-title="Entertainment",Sun TV HD
-https://m3u.8088y.fun/jtvp/Sun_TV_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Sun_TV_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -32,7 +34,9 @@ https://m3u.8088y.fun/sxt/Sun_TV.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=849d6b062b645abea937ec7f2b6b1686:1f65503420b88d11a16d4a4eacd95f0f
 #EXTVLCOPT:http-user-agent=AuthoIPTV (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) autho-iptv/0.6.4-beta Electron/34.5.7
 #EXTINF: -1 tvg-id="ts496" tvg-name="Star Vijay HD" tvg-logo="https://tatalogo.pages.dev/496.png" group-title="Entertainment", Star Vijay HD
-https://m3u.8088y.fun/jtvp/Star_Vijay_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Vijay_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -45,7 +49,9 @@ https://m3u.8088y.fun/ast/StarVijay.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c5f2861efbc7552ba802dcae4e160359:4ea32867828280a4d6f36ea8fbbe38eb
 #EXTINF: -1 tvg-id="ts496" tvg-name="Star Vijay HD" tvg-logo="https://tatalogo.pages.dev/496.png" group-title="Entertainment", Star Vijay
-https://m3u.8088y.fun/jtvp/Star_Vijay.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Vijay.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="0-9-zeetamil" tvg-name="Zee Tamil HD" tvg-logo="https://tatalogo.pages.dev/608.png" group-title="Entertainment", Zee Tamil HD (zee5)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 #EXTHTTP:{"Origin":"https://www.zee5.com","Referer":"https://www.zee5.com/"}
@@ -56,7 +62,9 @@ https://m3u.8088y.fun/jtvp/Star_Vijay.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=e9dd4aa4accd53188659c4a7b45bd8c4:920ff1a99835cfeb26d4c0db04ee58bd
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.1.0_3012 (Linux;Android 9) ExoPlayerLib/2.18.1
 #EXTINF:-1 tvg-id="0-9-zeetamil" tvg-name="Zee Tamil HD" tvg-logo="https://tatalogo.pages.dev/608.png" group-title="Entertainment", Zee Tamil HD
-https://m3u.8088y.fun/jtvp/zee_tamil_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/zee_tamil_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -74,7 +82,9 @@ https://m3u.8088y.fun/ast/ZeeTamil.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=3b5583d76a465054a7d444b307a9ff21:3f8d9e2207221a0cbcaf120754e4b2e4
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.1.0_3012 (Linux;Android 9) ExoPlayerLib/2.18.1
 #EXTINF:-1 tvg-id="0-9-9z5383487" tvg-name="Zee Tamil" tvg-logo="https://tatalogo.pages.dev/608.png" group-title="Entertainment", Zee Tamil
-https://m3u.8088y.fun/jtvp/zee_tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/zee_tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -93,19 +103,25 @@ https://m3u.8088y.fun/ast/ColorsTamilHD.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0729280e18465f30a437fae60b0de8c7:f5db301fe989d18fc10d29c836a3a2c7
 #EXTINF:-1 tvg-id="429" tvg-name="Colors Tamil HD" tvg-logo="https://tatalogo.pages.dev/674.png" group-title="Entertainment", Colors Tamil
-https://m3u.8088y.fun/jtvp/Colors_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Colors_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b53a72551ecd5f5a93785ab2eea2c04a:91c08ce0ece5d6c8c167b104a7c9ab00
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTINF:-1 tvg-id="ts708" tvg-name="Jaya TV HD" tvg-logo="https://tatalogo.pages.dev/708.png" group-title="Entertainment", Jaya TV HD
-https://m3u.8088y.fun/jtvp/Jaya_TV_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Jaya_TV_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3b214e599f3f5fb3abd92164fa152caf:ec6050021a558cd31511717e1c0912e6
 #EXTVLCOPT:http-user-agent=AuthoIPTV (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) autho-iptv/0.6.4-beta Electron/34.5.7
 #EXTINF:-1 tvg-id="ts439" tvg-name="Raj TV" tvg-logo="https://tatalogo.pages.dev/439.png" group-title="Entertainment", Raj TV
-https://m3u.8088y.fun/jtvp/Raj_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Raj_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -117,7 +133,9 @@ https://m3u.8088y.fun/sxt/Adithya_TV.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=75dfe3fa680c58d6bc94815950c7d4f0:480cd1106bfb291a5735b0f9dc71bded
 #EXTINF:-1 tvg-id="ts200" tvg-name="Kalaignar TV" tvg-logo="https://tatalogo.pages.dev/200.png" group-title="Entertainment", Kalaignar TV
-https://m3u.8088y.fun/jtvp/Kalaignar_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Kalaignar_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="SIRIPOLI.in" tvg-name="Sirippoli" tvg-logo="https://tatalogo.pages.dev/611.png" group-title="Entertainment", Sirippoli
 https://m3u.8088y.fun/live/sirippoli.m3u8?tk=testing
 #EXTINF:-1 tvg-id="MURASU.in" tvg-name="Murasu TV" tvg-logo="https://tatalogo.pages.dev/411.png" group-title="Entertainment", Murasu TV
@@ -129,37 +147,49 @@ https://m3u.8088y.fun/live/chithiram.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f1cc3d31477255288c5a6e47be0ba0bb:b99afce91d2fddfb3a4c01df22fb5964
 #EXTINF:-1 tvg-id="ts1322" tvg-name="Thanthi One" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/THANTIO_Thumbnail-v4/THANTIO_Thumbnail.png" group-title="Entertainment", Thanthi One
-https://m3u.8088y.fun/jtvp/Thanthi_One.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Thanthi_One.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00b981848b1a5d979668260a22bd4ae1:c74650e08f78101679685f459ba6e8d4
 #EXTINF:-1 tvg-id="ts272" tvg-name="Polimer TV" tvg-logo="https://tatalogo.pages.dev/272.png" group-title="Entertainment", Polimer TV
-https://m3u.8088y.fun/jtvp/Polimer_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Polimer_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=221fbcbb6a125e9281f6f533bba26557:4a57b0644dfe04264e7e484900f43869
 #EXTINF:-1 tvg-id="ts499" tvg-name="Vasanth TV" tvg-logo="https://tatalogo.pages.dev/499.png" group-title="Entertainment", Vasanth TV
-https://m3u.8088y.fun/jtvp/Vasanth_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Vasanth_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9b6c4374605e5b4590522d6443990f67:7833ec685f36ca55a76de74f6504ed8e
 #EXTINF:-1 tvg-id="ts659" tvg-name="Vendhar TV" tvg-logo="https://tatalogo.pages.dev/659.png" group-title="Entertainment", Vendhar TV
-https://m3u.8088y.fun/jtvp/Vendhar_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Vendhar_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2ea6469898f65ed6b88b1718c99d7a32:067fb846ee90c5d6820cc463eb6824c8
 #EXTINF:-1 tvg-id="ts421" tvg-name="Peppers TV" tvg-logo="https://tatalogo.pages.dev/421.png" group-title="Entertainment", Peppers TV
-https://m3u.8088y.fun/jtvp/Peppers_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Peppers_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5820dafb03805d3b90ac277ea54814c7:f8dfe0926904d421373ba029cb3e1ef7
 #EXTINF:-1 tvg-id="ts392" tvg-name="Makkal TV" tvg-logo="https://tatalogo.pages.dev/392.png" group-title="Entertainment", Makkal TV
-https://m3u.8088y.fun/jtvp/Makkal_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Makkal_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="ts37" tvg-name="Mega TV" tvg-logo="https://tatalogo.pages.dev/37.png" group-title="Entertainment", Mega TV
 https://m3u.8088y.fun/live/Mega_Tv.m3u8?tk=testing
 #EXTINF:-1 tvg-id="ts334" tvg-name="DD Tamil" tvg-logo="https://i.ibb.co/rQNDBCy/dd.png" group-title="Entertainment", DD Tamil HD
@@ -169,19 +199,25 @@ https://m3u.8088y.fun/live/DD_Tamil.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b49a765e90eb5b43bdec0471ed4eda78:d4a55cf0dc5127b69e2c355ff4e35f15
 #EXTINF:-1 tvg-id="1647" tvg-name="MK Six" tvg-logo="https://tataprime.wordpress.com/wp-content/uploads/2024/05/20240521_1223086548629137627592678.png"  group-title="Entertainment", MK Six
-https://m3u.8088y.fun/jtvp/MK_Six.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/MK_Six.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4b9ed4a04bc45a0f87c06953d625d20c:ab9eb9c3f95f8e4c363e39ba94664304
 #EXTINF:-1 tvg-id="1518" tvg-name="Moon TV" tvg-logo="https://tataprime.files.wordpress.com/2024/03/20240313_0159072608720790962587693.png" group-title="Entertainment", Moon TV
-https://m3u.8088y.fun/jtvp/Moon_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Moon_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6f12c21409935b97b9bdaeeaf6ab7822:d8e90e3241b0a9fabf4ac2234305a53c
 #EXTINF:-1 tvg-name="824" tvg-name="Puthu Yugam" tvg-logo="https://i.ibb.co/Xt40dT5/Puthuyugam.png" group-title="Entertainment", Puthu Yugam
-https://m3u.8088y.fun/jtvp/Puthu_Yugam.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Puthu_Yugam.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-name="Vikatan" tvg-logo="https://i.ibb.co/F0HvxrQ/vikatan.png" group-title="Entertainment", Vikatan TV
 https://m3u.8088y.fun/live/Vikatan_TV.m3u8?tk=testing
 #KODIPROP:inputstream=inputstream.adaptive
@@ -215,22 +251,30 @@ https://m3u.8088y.fun/sxt/KTV.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=4058ba890768578093e4d30bc957b85c&key=42d335cfebf7292487522ac572d706a8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux;Android 13) ExoPlayerLib/2.11.6
 #EXTINF:-1 tvg-id="VIJAY.SUPER.HD.in" tvg-name="Vijay Super HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/VISUHD_Thumbnail-v1/VISUHD_Thumbnail.png" group-title="Movies", Vijay Super HD
-https://jiotvioslive.cdn.jio.com/bpk-tv/Vijay_Super_HD_BTS/output/index.mpd?hdnea=st=1775309379~exp=1775395779~acl=/*~hmac=d951512ba7c86bd5fca3b83e740844ac5d7ef8c89861645dbc2fd5a0e7755b9e
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Vijay_Super_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=737e9cc83a8a5a55a002fa3ca457244c:a0285e3041ff5f4efae5361e12f759db
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux;Android 13) ExoPlayerLib/2.11.6
 #EXTINF:-1 tvg-id="VIJAY.SUPER.HD.in" tvg-name="Vijay Super HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/VISUHD_Thumbnail-v1/VISUHD_Thumbnail.png" group-title="Movies", Vijay Super
-https://m3u.8088y.fun/jtvp/Vijay_Super.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Vijay_Super.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="VIJAY.TAKKAR.in" tvg-name="Vijay Takkar" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-73570-l91cvyrk-v1/imageContent-73570-l91cvyrk-m2.png" group-title="Movies", Vijay Takkar
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ecdf4d18807e55bf814c3f40656a33c3:0031af1bf42234195cda0eb88fd6003b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
-https://m3u.8088y.fun/jtvp/Vijay_Takkar.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Vijay_Takkar.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="0-9-224" tvg-name="Zee Thirai HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/ZETIHD_Thumbnail-v2/ZETIHD_Thumbnail.png" group-title="Movies", Zee Thirai HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9ecfc67bf2dd54fa84495c4c299c51ec:85337048d7be42ef66f6198a99376fa7
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
-https://m3u.8088y.fun/jtvp/zee_thirai_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/zee_thirai_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="0-9-224" tvg-name="Zee Thirai HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/ZETIHD_Thumbnail-v2/ZETIHD_Thumbnail.png" group-title="Movies", Zee Thirai HD (zee5)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 #EXTHTTP:{"Origin":"https://www.zee5.com","Referer":"https://www.zee5.com/"}
@@ -252,12 +296,16 @@ https://m3u.8088y.fun/ast/SunLife.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=531467efbbf156d793766adfe62d6a26:3e4eef5502a6da48b91894c33310ea93
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="417" tvg-name="J Movies" tvg-logo="https://tatalogo.pages.dev/201.png" group-title="Movies", J Movies
-https://m3u.8088y.fun/jtvp/J_Movies.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/J_Movies.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a1636627c85a5129974eea2d1a917604:2453963a306c012223944e13790908de
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="683" tvg-name="Raj Digital Plus" tvg-logo="https://tatalogo.pages.dev/426.png" group-title="Movies", Raj Digital Plus
-https://m3u.8088y.fun/jtvp/Raj_Digital_Plus.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Raj_Digital_Plus.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=72499c6ad44cc37d95a9075420911110:b5416326114a13e90662a4fbaf3c532b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; Philips Google TV TA7 Build/RTM5.220609.199; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.179 Mobile Safari/537.36
@@ -378,26 +426,34 @@ https://m3u.8088y.fun/live/Isai_Aruvi.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=fac51ad9458958668729ddf5ac67a9ae:39fe92ea06365c6f01987739a48e9798
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="420" tvg-name="Jaya Max" tvg-logo="https://tatalogo.pages.dev/199.png" group-title="Music", Jaya Max
-https://m3u.8088y.fun/jtvp/Jaya_Max.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Jaya_Max.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7fbca27f1de95241963dbf8ad9c85ade:7f71987978c403c7d78fd4ae92990496
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="748" tvg-name="Raj Musix" tvg-logo="https://tatalogo.pages.dev/425.png" group-title="Music", Raj Musix
-https://m3u.8088y.fun/jtvp/Raj_Musix.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Raj_Musix.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="ts400" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11583-j9jype8w-v3/imageContent-11583-j9jype8w-m3.png" group-title="Music",Mega Musiq
 https://m3u.8088y.fun/live/Mega_Musiq.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b0c237a374cd57bb80afeec16f6ab680:08dab9f7242dbd95f1e494a96f6fdad8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="803" tvg-name="Tunes 6" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Tunes_6.png" group-title="Music", Tunes 6
-https://m3u.8088y.fun/jtvp/Tunes_6.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Tunes_6.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="7S.MUSIC.in" tvg-name="7S Music" tvg-logo="https://tataprime.files.wordpress.com/2024/03/wp-17097527414494923868850942693233.png" group-title="Music", 7S Music
 https://m3u.8088y.fun/live/7S_Music.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b49a765e90eb5b43bdec0471ed4eda78:d4a55cf0dc5127b69e2c355ff4e35f15
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="" tvg-name="MK Tunes" tvg-logo="https://tataprime.wordpress.com/wp-content/uploads/2024/04/20240408_1226114818724495988278767.png" group-title="Music", MK six
-https://m3u.8088y.fun/jtvp/MK_Six.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/MK_Six.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="rasi_music_hd" tvg-logo="https://i.ibb.co/0ycKLm65/Rasi-Music.png" group-title="Music",Rasi Music
 https://m3u.8088y.fun/local/rasi_music_hd.mpd?tk=testing
 #EXTINF:-1 tvg-id="sana_tv" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/sanaplus.png?width=200" Group-title="Music",sana Tv
@@ -424,22 +480,30 @@ https://m3u.8088y.fun/local/ThiraiIsai.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=0f9371552c9b5d4ea83b97b455285d97:d8751df166bb3b7f5b995268f4a77f67
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="579" tvg-name="History TV18 HD Tamil" tvg-logo="https://tatalogo.pages.dev/616.png" group-title="Infotainment", History TV18 HD Tamil
-https://m3u.8088y.fun/jtvp/History_TV18_HD_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/History_TV18_HD_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=422041867ef8519f80db68590dcec30c:7a8dac15a397d0d6286046eb0392d581
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="814" tvg-name="Travelxp Tamil" tvg-logo="https://tatalogo.pages.dev/444.png" group-title="Infotainment", Travelxp Tamil
-https://m3u.8088y.fun/jtvp/Travelxp_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Travelxp_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b6fbfa48ce125c8c8f46004da232e956:fb3181695d57614995f6025d41a1dbe2
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="569" tvg-name="D Tamil" tvg-logo="https://tatalogo.pages.dev/99.png" group-title="Infotainment", D Tamil
-https://m3u.8088y.fun/jtvp/D_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/D_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ce16454b1fc85beab2f807af176046bb:ff67cca83c770daa6dc9c295cc76564f
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="463" tvg-name="Discovery HD World" tvg-logo="https://tatalogo.pages.dev/219.png" group-title="Infotainment", Discovery HD World
-https://m3u.8088y.fun/jtvp/Discovery_HD_World.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Discovery_HD_World.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF: -1 tvg-id="" tvg-name="Village Cooking Channel" tvg-logo="https://i.ibb.co/xKx1bjPJ/Picsart-25-09-02-13-16-32-922.png" group-title="Infotainment", Village Cooking Channel
 https://m3u.8088y.fun/live/Village_Cooking_Channel.m3u8?tk=testing
 #EXTINF:-1 tvg-id="SONY.BBC.EARTH.HD.in" tvg-name="SONY BBC Earth HD" tvg-logo="https://tatalogo.pages.dev/158.png" group-title="Infotainment", SONY BBC Earth HD
@@ -448,17 +512,23 @@ https://m3u.8088y.fun/sliv/BBC_EARTH.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=4b006dd7965e5777a7fa33dd636c2e5d:179f796bdf11b750bebd469a3aeae1d0
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="NATIONAL.GEOGRAPHIC.HD.in" tvg-name="National Geographic HD" audio-track="5" tvg-logo="https://tatalogo.pages.dev/605.png" group-title="Infotainment", National Geographic HD
-https://m3u.8088y.fun/jtvp/National_Geographic_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/National_Geographic_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ff6ca7035f7d51609b43960e3b88fc94:e2c4e61e32022885f6ccb9215b60dad4
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ExoPlayerLib/824.0
 #EXTINF:-1 tvg-id="NAT.GEO.WILD.HD.in" tvg-name="Nat Geo Wild HD" audio-track="3" tvg-logo="https://tatalogo.pages.dev/413.png" group-title="Infotainment", Nat Geo Wild HD
-https://m3u.8088y.fun/jtvp/Nat_Geo_Wild_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Nat_Geo_Wild_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6e56dee54bd4596b8ba528012fd3c7e7:c10f10e9b4926b13a6627c99ec0fae1c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="NAT.GEO.WILD.HD.in" tvg-name="Nat Geo Wild HD" audio-track="3" tvg-logo="https://tatalogo.pages.dev/130.png" group-title="Infotainment", Animal Planet HD
-https://m3u.8088y.fun/jtvp/Animal_Planet_HD_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Animal_Planet_HD_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="rasi_lifestyle_hd" tvg-logo="https://i.ibb.co/pr2wvtfQ/rasi-lifestyle-hd.png" group-title="Infotainment",Rasi Lifestyle
 https://m3u.8088y.fun/local/rasi_lifestyle_hd.mpd?tk=testing
 #KODIPROP:inputstream=inputstream.adaptive
@@ -471,68 +541,94 @@ https://m3u.8088y.fun/sxt/Chutti_TV.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=83997e19da7f5b15a53c150730a91f31:605f420d088427d95b55275eb174b734
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1081" tvg-name="CN HD+ Tamil" tvg-logo="https://tatalogo.pages.dev/681.png" group-title="Kids", Cartoon Network HD
-https://m3u.8088y.fun/jtvp/CN_HD_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/CN_HD_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=553fc9bdb0115b24b23d04be203d1b9d:a220f0a32aaee1e6989ef8e6a6728fe1
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="817" tvg-name="Cartoon Network Tamil" audio-track="2" tvg-logo="https://tatalogo.pages.dev/238.png" group-title="Kids", Cartoon Network
-https://m3u.8088y.fun/jtvp/Cartoon_Network_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Cartoon_Network_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a62d4ca4ef095564bede0fe525956634:5e34a5126bfe29c18947046513f18cce
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="290" tvg-name="sonic Tamil" tvg-logo="https://tatalogo.pages.dev/127.png" group-title="Kids", Sonic Nickelodeon
-https://m3u.8088y.fun/jtvp/sonic_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/sonic_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=50c0ac86d9445b3a855fcabae7538aaf:cf79083218d809d379c2f64acbde561f
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1226" tvg-name="Nick HD+" tvg-logo="https://tatalogo.pages.dev/433.png" group-title="Kids", Nick HD+
-https://m3u.8088y.fun/jtvp/Nick_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Nick_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2fc128a8dcc751829ec7ed9c678ecb6f:95f49d83ad11868e15e64baf5dec62ac
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="546" tvg-name="Nick Tamil" tvg-logo="https://tatalogo.pages.dev/138.png" group-title="Kids", Nick Tamil
-https://m3u.8088y.fun/jtvp/Nick_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Nick_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=527df4ddb18a530db7565fff6c06263f:b4ca95df03a230ba8e23a7226de77d05
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="550" tvg-name="Discovery Kids Tamil" audio-track="2" tvg-logo="https://tatalogo.pages.dev/119.png" group-title="Kids", Discovery Kids
-https://m3u.8088y.fun/jtvp/Discovery_Kids_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Discovery_Kids_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d19984624fc15209b3cb5cf3bf99232f:baca6aa9494ed43cf02975eda742eeab
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="542" tvg-name="Pogo Tamil" audio-track="9" tvg-logo="https://tatalogo.pages.dev/239.png" group-title="Kids", Pogo Tamil
-https://m3u.8088y.fun/jtvp/Pogo_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Pogo_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e28fc2f196045ad5a74c7eee8e4973f3:41e9517d0be1f231017a04ad93a866a1
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="45" tvg-name="Sony YAY" audio-track="3" tvg-logo="https://tatalogo.pages.dev/45.png" group-title="Kids", Sony YAY
-https://m3u.8088y.fun/jtvp/Sony_Yay_tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Sony_Yay_tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5181d3e6698055578cedc5bfc86b3e56:3dca7917d8cf9bb7095dc72b48bdcd3c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF: -1 tvg-id="DISNEY.CHANNEL.in" tvg-name="Disney" audio-track="2" tvg-logo="https://tatalogo.pages.dev/114.png" group-title="Kids", Disney
-https://m3u.8088y.fun/jtvp/Disney_Channel.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Disney_Channel.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1b1f9702f7d853c1b198495f64924311:40e11e60a12dd6c154dfea0ffbd5bda8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="DISNEY.JUNIOR.in" tvg-name="Disney Junior" audio-track="2" tvg-logo="https://tatalogo.pages.dev/144.png" group-title="Kids", Disney Junior
-https://m3u.8088y.fun/jtvp/Disney_Junior.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Disney_Junior.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=454f8353caac500d95d641e0c7cfe048:0aaca46ea0f5096335598781fbe590e4
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF: -1 tvg-id="HUNGAMA.in" tvg-name="Hungama" audio-track="2" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11479-j9jr9a8o-v1/imageContent-11479-j9jr9a8o-m1.png" group-title="Kids", Hungama
-https://m3u.8088y.fun/jtvp/Hungama.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Hungama.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="Super Hungama.in" tvg-name="Super Hungama" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Super_Hungama.png" group-title="Kids", Super Hungama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7a450f0820c4589690eb336c29f18da6:820e84119563b56d6e6f0bf514cbdc3c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
-https://m3u.8088y.fun/jtvp/Super_Hungama.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Super_Hungama.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3aa4315e260952699373b61cac44cdc0:85f4575328f290b1f468086d6bc157ed
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="" tvg-name="Animax" tvg-logo="https://tataprime.wordpress.com/wp-content/uploads/2024/07/20240707_1001225329215954789331277.png" group-title="Kids" , Animax
-https://m3u.8088y.fun/jtvp/Animax.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Animax.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -545,27 +641,37 @@ https://m3u.8088y.fun/live/News18_Tamil_Nadu.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=d1e67bdbd4cf5f7c902b52d30e5c01e8:850f909b3cbdba1084f393b7990f81f6
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="830" tvg-name="Thanthi TV" tvg-logo="https://tatalogo.pages.dev/524.png" group-title="News", Thanthi TV
-https://m3u.8088y.fun/jtvp/Thanthi_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Thanthi_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=adfefde497a8588d8f976761abd76e41:9d40d8ce521b0f6bd702bc23ed53abbf
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="677" tvg-name="Puthiya Thalimurai" tvg-logo="https://tatalogo.pages.dev/220.png" group-title="News", Puthiya Thalimurai
-https://m3u.8088y.fun/jtvp/Puthiya_Thalimurai.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Puthiya_Thalimurai.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d55c6a18eb5755f69569018d0ca2cc10:5ab1ebf72c473ed373b7cb1cc096eeaf
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1954" tvg-name="News Tamil 24x7" tvg-logo="https://tatalogo.pages.dev/968.png" group-title="News", News Tamil 24x7
-https://m3u.8088y.fun/jtvp/News_Tamil_24x7.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/News_Tamil_24x7.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a37237ae6f795a0fa2c8a72cc2c5cfa7:08be015e5f0f080cc4629376aead465a
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="636" tvg-name="Polimer News" tvg-logo="https://tatalogo.pages.dev/509.png" group-title="News", Polimer News
-https://m3u.8088y.fun/jtvp/Polimer_News.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Polimer_News.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=581216f915e35e2e9b55ac3d55b64b5b:cd1fa817bf27268fb120defbd91944cc
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1515" tvg-name="News J" tvg-logo="https://tatalogo.pages.dev/702.png" group-title="News", News J
-https://m3u.8088y.fun/jtvp/News_J.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/News_J.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="" tvg-name="Zee Tamil News" tvg-logo="https://tataprime.files.wordpress.com/2024/03/20240326_1720524862135127431598069.png" group-title="News", Zee Tamil News
 https://m3u.8088y.fun/live/Zee_Tamil_News.m3u8?tk=testing
 #EXTINF:-1 tvg-id="826" tvg-name="Malai Murasu" tvg-logo="https://tatalogo.pages.dev/391.png" group-title="News", Malai Murasu
@@ -576,37 +682,51 @@ https://m3u.8088y.fun/live/M_Nadu.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=3b5583d76a465054a7d444b307a9ff21:3f8d9e2207221a0cbcaf120754e4b2e4
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="671" tvg-name="Sathiyam TV" tvg-logo="https://tataprime.wordpress.com/wp-content/uploads/2024/06/20240606_1005063335019012635312549.png" group-title="News", Sathiyam TV
-https://m3u.8088y.fun/jtvp/Sathiyam_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Sathiyam_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=bb8d362c9a66528d8b3ed7b2108ca6d1:55c6e1bb1571eb2c7d61508b85d69075
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1210" tvg-name="Kalaignar Seithigal" tvg-logo="https://tatalogo.pages.dev/44.png" group-title="News", Kalaignar Seithigal
-https://m3u.8088y.fun/jtvp/Kalaignar_Seithigal.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Kalaignar_Seithigal.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ec09137d33685441840a6a203fb997f1:1f4fa4c7d54765cc7cc68b6f139aaae8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="673" tvg-name="News7 Tamil" tvg-logo="https://tataprime.files.wordpress.com/2024/03/20240307_0058221296057793002455467.png" group-title="News", News7 Tamil
-https://m3u.8088y.fun/jtvp/News7_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/News7_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e1aefaf169735829b2a6fb77e403eac2:941252b4e0873390b6909258b7fc5b89
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF: -1 tvg-id="418" tvg-name="Jaya Plus" tvg-logo="https://tatalogo.pages.dev/198.png" group-title="News", Jaya Plus
-https://m3u.8088y.fun/jtvp/Jaya_Plus.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Jaya_Plus.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dbf09ac3d0f45b4ab418d62d206b4865:f440838bdffa36d041e405dc2734dab2
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF: -1 tvg-id="767" tvg-name="Raj News 24x7" tvg-logo="https://tatalogo.pages.dev/525.png" group-title="News", Raj News 24x7
-https://m3u.8088y.fun/jtvp/Raj_News.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Raj_News.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=998ad1e9e0a9577cbf5501b9d5a9d8be:c655b64bbb02273246aff7b87cbdbc0b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="3045" tvg-name="Tamil Janam" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/TAMILJNM_Thumbnail-v6/TAMILJNM_Thumbnail.png" group-title="News", Tamil Janam
-https://m3u.8088y.fun/jtvp/Janam_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Janam_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8f22655b30eb5873940301787fec8ae6:7b65f7dd5e6755a1fd129820fbd69313
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="970" tvg-name="Win TV" tvg-logo="https://i.ibb.co/XfKzRFqJ/Picsart-25-09-02-13-17-32-028.png" group-title="News", Win TV
-https://m3u.8088y.fun/jtvp/Win_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Win_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="" tvg-name="Gem Television" tvg-logo="https://tataprime.wordpress.com/wp-content/uploads/2024/02/20240224_084006922219389970997274.png" group-title="News", Gem Television
 https://m3u.8088y.fun/live/Gem_Television.m3u8?tk=testing
 -EXTRA NEWS-
@@ -639,47 +759,65 @@ https://m3u.8088y.fun/live/NDTV_INDIA.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_key=7b2643b3dad65bf5b6184fe0d3d200dd:32d03e7bbb71cc9e1685edfa7b3c4b7e
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="2768" tvg-name="Jothi TV" tvg-logo="https://i.ibb.co/bjXfPTDs/Picsart-25-12-02-16-03-12-367.png" group-title="Devotional", Jothi TV
-https://m3u.8088y.fun/jtvp/Jothi_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Jothi_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3358421bd32754a0b0c7b02552c7796c:181dd99a7fbc8fc522bed7ccccea69e6
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="2351" tvg-name="SRS Bhakti TV" tvg-logo="https://i.ibb.co/vxGb7Lgr/Picsart-25-12-02-16-03-29-502.png" group-title="Devotional", SRS Bhakti TV
-https://m3u.8088y.fun/jtvp/SRS_Bhakti_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/SRS_Bhakti_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=281fad820c2a5c3b90e92b606f7b9a79:591a47f5f8491eb86366b049fb5bedbf
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1438" tvg-name="Velukkudi Discourses" tvg-logo="https://i.ibb.co/Fkc1fDTS/Picsart-25-12-02-16-03-51-893.png" group-title="Devotional", Velukkudi Discourses
-https://m3u.8088y.fun/jtvp/Velukkudi_Discourses.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Velukkudi_Discourses.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f01da4e9d87a5c68a16523c750eb08a5:2174f947a6bcb190864a910687f3c4b6
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="937" tvg-name="Sai TV" tvg-logo="https://i.ibb.co/fz2V28Mm/Picsart-25-12-02-16-04-24-825.png" group-title="Devotional", Sai TV
-https://m3u.8088y.fun/jtvp/Sai_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Sai_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=22f517ee2f8a56d9b19fe070fcbfa61e:a282c99253c575ba63c04d9eb3d7795c
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1655" tvg-name="Madha TV" tvg-logo="https://img.media.jio.com/imagespublic/82/41/301018_1616754718302_l_medium.jpg" group-title="Devotional", Madha TV
-https://m3u.8088y.fun/jtvp/Madha_TV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Madha_TV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=183292b1942e50cdb4399905e299dfe0:0ce04720ade8a0a99fe7198ed35d99d1
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="603" tvg-name="Nambikkai" tvg-logo="https://i.ibb.co/M586Pm6b/Picsart-25-12-02-16-04-58-486.png" group-title="Devotional", Nambikkai
-https://m3u.8088y.fun/jtvp/Nambikkai.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Nambikkai.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1f44d88abc7f5f408b8685b9fc847f27:77c82ef497a25e8db0de98d3eb8a1dfe
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1417" tvg-name="SVBC2" tvg-logo="https://i.ibb.co/PGRBpHzN/Picsart-25-12-02-16-08-35-142.png" group-title="Devotional", SVBC2
-https://m3u.8088y.fun/jtvp/SVBC2.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/SVBC2.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=adefcb4d05a554258957ff4cd685227b:ba7bc4caa9c54a0fb17c1b2b6d2321c6
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="835" tvg-name="Angel TV HD" tvg-logo="https://i.ibb.co/6JqFHbkb/Picsart-25-12-02-16-10-37-707.png" group-title="Devotional", Angel TV HD
-https://m3u.8088y.fun/jtvp/AngelTV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/AngelTV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e422cbcf1ea4503ea34f88c0a7968c54:6c5302033440acff24231ff13ac1fbcb
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="3279" tvg-name="OM TV" tvg-logo="https://i.ibb.co/vCY7Sckm/Picsart-25-12-02-16-10-59-679.png" group-title="Devotional", OM TV
-https://m3u.8088y.fun/jtvp/OMTV.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/OMTV.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 ================================ TAMIL RADIO ================================
 -CHENNAI-
 #EXTINF:-1 type="radio" type="radio" group-title="Radio", Chennai FM Rainbow 101.4 FM
@@ -10032,68 +10170,92 @@ http://hdstreambox.in:1935/Arramtv/livetv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_1_Tamil_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_1_Tamil_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="Star Sports 1 Tamil" tvg-name="Star Sports 1 Tamil" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-249-j5fyl7tk-v1/imageContent-249-j5fyl7tk-m1.png" group-title="Sports",Star Sports 1 Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d0d750ebd52b5756aa7fb833f61ceece:4ae62a20c030c918aad24193c1dda229
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_1_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_1_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="STAR.SPORTS.1.TAMIL.HD.in" tvg-name="Star Sports 1 Tamil HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/SS1TAMHD_Thumbnail-v1/SS1TAMHD_Thumbnail.png" group-title="Sports", Star Sports 1 Tamil HD (backup)
 http://111.88.78.21:8000/play/a0to/index.m3u8?tk=testing
 #EXTINF:-1 tvg-id="STAR.SPORTS.2.TAMIL.HD.in" tvg-name="Star Sports 2 Tamil HD" tvg-logo="https://i.ibb.co/B26cyzHQ/Picsart-25-09-02-15-54-57-364.png" group-title="Sports", Star Sports 2 Tamil HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dc44fe6251825774b90d58dcfa7d94e0:63e3ae853f483a86752b5b9e6d61eb20
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_2_Tamil_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_2_Tamil_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="STAR.SPORTS.2.TAMIL.in" tvg-name="Star Sports 2 Tamil" tvg-logo="https://tatalogo.pages.dev/235.png" group-title="Sports", Star Sports 2 Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3c1b335c4bb858a7a6ac5a883d898a09:6eeff4302a7d19befd43c6b7b5fac268
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_2_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_2_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="STAR.SPORTS.2.TAMIL.HD.in" tvg-name="Star Sports 2 Tamil HD" tvg-logo="https://i.ibb.co/B26cyzHQ/Picsart-25-09-02-15-54-57-364.png" group-title="Sports", Star Sports 2 Tamil HD (backup)
 http://103.229.254.25:7001/play/a0d1/index.m3u8?tk=testing
 #EXTINF:-1 tvg-id="1772" tvg-name="Sony Sports Ten 4" tvg-logo="https://i.ibb.co/nqJRcGMd/Picsart-25-09-02-13-13-07-905.png" group-title="Sports", Sony Sports Ten 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9f266ceda9555faf8b40c586ac40406a:92f9a1ca4c16545db65ad0578bd1baa3
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Sony_LIV_Sports_4_Tamil.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Sony_LIV_Sports_4_Tamil.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="1772" tvg-name="Sony Sports Ten 4" tvg-logo="https://i.ibb.co/nqJRcGMd/Picsart-25-09-02-13-13-07-905.png" group-title="Sports", Sony Sports Ten 4 (sliv)
 https://m3u.8088y.fun/sliv/SONY_TEN_4.m3u8?tk=testing
 #EXTINF:-1 tvg-id="STAR.SPORTS.1.HD.in" tvg-name="Star Sports 1 HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8301-j7hc0820-v1/imageContent-8301-j7hc0820-m1.png" group-title="Sports", Star Sports 1 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_1_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_1_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="STAR.SPORTS.1.in" tvg-name="Star Sports 1" tvg-logo="https://i.ibb.co/d4kqJvVy/Picsart-25-09-02-13-08-21-046.png" group-title="Sports", Star Sports 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=df20894ec30954d3b28097c138f4cfda:ff9b6292b1cddbd11a046029cb314634
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_1.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_1.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="STAR.SPORTS.2.HD.in" tvg-name="Star Sports 2 HD" tvg-logo="https://tatalogo.pages.dev/235.png" group-title="Sports", Star Sports 2 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9457eb90129456fa8ea95e10ba4ac51e:e620a970cea474c491ac78ae71a4d764
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_2_HD.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_2_HD.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="STAR.SPORTS.2.in" tvg-name="Star Sports 2" tvg-logo="https://tatalogo.pages.dev/235.png" group-title="Sports", Star Sports 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fc3aafe80845584199a637249fad2ffa:ca4474972fdb4bf8ecb164482853c692
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_2.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_2.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF: -1 tvg-chno="STAR.SPORTS.SELECT.1.HD.in" tvg-name="Star Sports Select 1 HD" tvg-logo="https://tatalogo.pages.dev/246.png" group-title="Sports", Star Sports Select 1 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c2c048e439d65316beeda6ef64d5d0f8:e2fdc132cbdee65501b845ce414fce39
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_Select_HD2.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_Select_HD2.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF: -1 tvg-id="STAR.SPORTS.SELECT.2.HD.in" tvg-name="Star Sports Select 2 HD" tvg-logo="https://tatalogo.pages.dev/463.png" group-title="Sports", Star Sports Select 2 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6017d0514d425fa38f6e80ba6dcc852f:0018944b00adf2078f62386f30c68b74
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_Select_HD2.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_Select_HD2.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="STAR.SPORTS.3.in" tvg-name="Star Sports 3" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-31405-jm2isen4-v1/imageContent-31405-jm2isen4-m1.png" group-title="Sports", Star Sports 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e4e8647eaf0659ac85f61765a5abcdc1:d749c9b27505beb0e1a8b6c30ca65de6
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/Star_Sports_3.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/Star_Sports_3.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.1.HD.in" tvg-name="Sony Sports Ten 1 HD" tvg-logo="https://tatalogo.pages.dev/81.png" group-title="Sports", Sony Sports Ten 1 HD
 https://m3u.8088y.fun/sliv/SONY_TEN_1_HD.m3u8?tk=testing
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.1.HD.in" tvg-name="Sony Sports Ten 1" tvg-logo="https://tatalogo.pages.dev/81.png" group-title="Sports", Sony Sports Ten 1
@@ -10114,7 +10276,9 @@ https://m3u.8088y.fun/sliv/Sony_Ten_1.m3u8?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0c1b139b9a955134a1efae8e44b63aac:00897bffd6997049787270797b8c3a17
 #EXTVLCOPT:http-user-agent=JioTV.Plus/2.4.5_3051 (Linux;Android 9) AndroidXMedia3/1.7.1
-https://m3u.8088y.fun/jtvp/DD_Sports.mpd?tk=testing
+#EXTVLCOPT:http-cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
+#EXTHTTP:{"cookie":"__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7"}
+https://m3u.8088y.fun/jtvp/DD_Sports.mpd?tk=testing|cookie=__hdnea__=st=1775791057~exp=1775812657~acl=/*~hmac=64b0f07e52423296574e0e89c3171a4c8894b04b849930631acbb157022298b7
 #EXTINF: -1 tvg-id="" tvg-name="Cricket Gold" tvg-logo="https://images.samsung.com/is/image/samsung/assets/nz/tvs/smart-tv/samsung-tv-plus/all-channels/Cricket-Gold-200x200.png?$296_164_PNG$" group-title="Sports", Cricket Gold
 https://m3u.8088y.fun/live/Cricket_Gold.m3u8?tk=testing
 -EXTRA SPORTS-
@@ -10236,8 +10400,3 @@ https://aba5sdmaaaaaaaamdwujas5g6mg4r.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://aba5sdmaaaaaaaamhq2w5oosrf5ae.otte.live.cf.ww.aiv-cdn.net/syd-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?tk=testing?
-#EXTM3U
-#EXTM3U
-#EXTINF:-1 tvg-id="1090525220" tvg-name="UEFA Conference League 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000016853/1775150815349363_UECL26_QF_leg1_Rayo_Vallecano_vs_AEK_Athens_2apr_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Rayo Vallecano vs AEK Athens - Quarter-Final - Leg 1 - 9 Apr 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/RayoVall0904/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=ceef1dcc04264f757374ef04e42f9b26-1775754600117
-#EXTM3U
