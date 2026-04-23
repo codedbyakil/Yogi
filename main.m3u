@@ -1773,6 +1773,14 @@ https://southsidefmkzn.out.airtime.pro/southsidefmkzn_a
 #EXTINF:-1 type="radio" group-title="Radio", Lankasri FM - UK
 http://media2.lankasri.fm/;stream.mp3
 =============================NEW RELEASE============================
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Sabdham_poster.jpg/250px-Sabdham_poster.jpg" type="movie" group-title="New Release", sabdham 2026
+https://9str-m3u8-play-021024.playallu.com/m3u8/tp1-rdv1/360/69807afc9d3c04d8ad48983e/69c3c4beaca7e4820f3c6637/53616c7465645f5f89b20b213298a0f17e6d8ce98d5362293242b18c3f78cb5b/1776971667/295c9b24faf040b4c760666fa6a2a81d
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/51/Youth_%282026_film%29.jpg" type="movie" group-title="New Release", youth 2026
+https://cdn3.arivumani.live/googlecdnstream/googlestorage/cam/youth-hd/youth-hd.mp4/tracks-v1a1/mono.m3u8|origin=https://player3.spirituallifewell.com&Referer=https://player3.spirituallifewell.com/
+#EXTINF:-1 tvg-logo="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/ustaad-bhagat-singh-et00339939-1771925113.jpg" type="movie" group-title="New Release", Ustaad Bhagat Singh
+https://9str-m3u8-play-021024.playallu.com/m3u8/tp1-rdv1/360/69807afc9d3c04d8ad48983e/69e1e54daca7e4820f3d01b6/53616c7465645f5fc7e69b220e252833f5baf92b433932e3eeb721e251fcd317/1776969662/a2b09e701b26074c971725adc1969eda
+#EXTINF:-1 tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16194916_p_v8_aa.jpg" type="movie" group-title="New Release", Sarkar 2018
+https://cdn3.arivumani.live/cdngoogle/2023/u1/storage/hls/929e787eb8284e8d4bb2dec0b478767e/360p/index.m3u8|origin=https://player3.spirituallifewell.com&Referer=https://player3.spirituallifewell.com/
 #EXTINF:-1 tvg-logo="https://assets-in.bmscdn.com/discovery-catalog/events/et00484111-chnjcdftyt-landscape.jpg" type="movie" group-title="New Release", Seetha Payanam 2026
 https://pixeldrain.dev/api/file/d7Ljpa6j?download
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNTg0MThhYzgtMzNkMC00NDRmLWI4ZmUtNzRkY2I2OWJiMjE2XkEyXkFqcGc@._V1_.jpg" type="movie" group-title="New Release", Sabdham 2025
