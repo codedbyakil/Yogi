@@ -303,52 +303,72 @@ https://m3u.8088y.fun/local/rasi_classic_hd.mpd?tk=testing
 https://m3u.8088y.fun/local/rasi_cinemax_hd.mpd?tk=testing
 #EXTINF:-1 tvg-id="rasi_cinema_hd" tvg-logo="https://i.ibb.co/nsB9m777/Rasi-Cinema.png" group-title="Movies",Rasi Cinema
 https://m3u.8088y.fun/local/rasi_cinema_hd.mpd?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="24/7:_Globe_Tamil_Bloclbuster" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",24/7:_Globe_Tamil_Bloclbuster
-https://m3u.8088y.fun/liveGlobe_Tamil_Bloclbuster.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="24/7:_Tamil_Movies_Vol_1" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",24/7:_Tamil_Movies_Vol_1
-https://m3u.8088y.fun/liveTamil_Movies_Vol_1.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="24/7:_Tamil_Collection_Vol_2" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",24/7:_Tamil_Collection_Vol_2
-https://m3u.8088y.fun/liveTamil_Collection_Vol_2.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="24/7:_Tamil_Collection_Vol_3" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",24/7:_Tamil_Collection_Vol_3
-https://m3u.8088y.fun/liveTamil_Collection_Vol_3.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="24/7:_Tamil_2022_2021_Collection_vol_1" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",24/7:_Tamil_2022_2021_Collection_vol_1
-https://m3u.8088y.fun/liveTamil_2022_2021_Collection_vol_1.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES_1_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-MOVIES_1_HD
-https://m3u.8088y.fun/live/TAMIL-MOVIES_1_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES_2_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-MOVIES_2_HD
-https://m3u.8088y.fun/live/TAMIL-MOVIES_2_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES_3_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-MOVIES_3_HD
-https://m3u.8088y.fun/live/TAMIL-MOVIES_3_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES_4_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-MOVIES_4_HD
-https://m3u.8088y.fun/live/TAMIL-MOVIES_4_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES_5_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-MOVIES_5_HD
-https://m3u.8088y.fun/live/TAMIL-MOVIES_5_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-CRIME_MOVIES_1_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-CRIME_MOVIES_1_HD
-https://m3u.8088y.fun/live/TAMIL-CRIME_MOVIES_1_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-DRAMA_MOVIES_1_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-DRAMA_MOVIES_1_HD
-https://m3u.8088y.fun/live/TAMIL-DRAMA_MOVIES_1_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-DRAMA_MOVIES_2_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-DRAMA_MOVIES_2_HD
-https://m3u.8088y.fun/live/TAMIL-DRAMA_MOVIES_2_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-DRAMA_MOVIES_4_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-DRAMA_MOVIES_4_HD
-https://m3u.8088y.fun/live/TAMIL-DRAMA_MOVIES_4_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-DRAMA_MOVIES_5_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-DRAMA_MOVIES_5_HD
-https://m3u.8088y.fun/live/TAMIL-DRAMA_MOVIES_5_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-ACTION_MOVIES_1_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-ACTION_MOVIES_1_HD
-https://m3u.8088y.fun/live/TAMIL-ACTION_MOVIES_1_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-ACTION_MOVIES_2_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-ACTION_MOVIES_2_HD
-https://m3u.8088y.fun/live/TAMIL-ACTION_MOVIES_2_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-ROMANCE_MOVIES_1_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-ROMANCE_MOVIES_1_HD
-https://m3u.8088y.fun/live/TAMIL-ROMANCE_MOVIES_1_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-SIVAJI_GANESAN_MOVIES_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-SIVAJI_GANESAN_MOVIES_HD
-https://m3u.8088y.fun/live/TAMIL-SIVAJI_GANESAN_MOVIES_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-PARABHU_MOVIES_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-PARABHU_MOVIES_HD
-https://m3u.8088y.fun/live/TAMIL-PARABHU_MOVIES_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-KARTHI_MOVIES_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-KARTHI_MOVIES_HD
-https://m3u.8088y.fun/live/TAMIL-KARTHI_MOVIES_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-JAYAM_RAVI_MOVIES_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-JAYAM_RAVI_MOVIES_HD
-https://m3u.8088y.fun/live/TAMIL-JAYAM_RAVI_MOVIES_HD.ts?tk=testing
-#EXTINF:-1 tvg-id="" tvg-name="TAMIL-ARYA_MOVIES_HD" tvg-logo="https://i.ibb.co/4gfY3Tmg/x.webp" group-title="24x7 Movies Live",TAMIL-ARYA_MOVIES_HD
-https://m3u.8088y.fun/live/TAMIL-ARYA_MOVIES_HD.ts?tk=testing
+#EXTINF:-1 tvg-id="" tvg-name="24/7: Globe_Tamil_Bloclbuster" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",24/7: Globe_Tamil_Bloclbuster
+https://datahub11.com:443/live/223344/556677/121315.ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7: Tamil Movies Vol_1" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",24/7: Tamil Movies Vol_1
+https://datahub11.com:443/live/223344/556677/121330.ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7: Tamil_Collection_Vol 2" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",24/7: Tamil_Collection_Vol 2
+https://datahub11.com:443/live/223344/556677/121335.ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7: Tamil_Collection_Vol 3" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",24/7: Tamil_Collection_Vol 3
+https://datahub11.com:443/live/223344/556677/121336.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES 1 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-MOVIES 1 HD
+https://datahub11.com:443/live/223344/556677/136398.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES 2 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-MOVIES 2 HD
+https://datahub11.com:443/live/223344/556677/136399.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES 3 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-MOVIES 3 HD
+https://datahub11.com:443/live/223344/556677/136400.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES 4 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-MOVIES 4 HD
+https://datahub11.com:443/live/223344/556677/136401.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-MOVIES 5 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-MOVIES 5 HD
+https://datahub11.com:443/live/223344/556677/136402.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-CRIME MOVIES 1 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-CRIME MOVIES 1 HD
+https://datahub11.com:443/live/223344/556677/136419.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-DRAMA MOVIES 1 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-DRAMA MOVIES 1 HD
+https://datahub11.com:443/live/223344/556677/136421.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-DRAMA MOVIES 2 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-DRAMA MOVIES 2 HD
+https://datahub11.com:443/live/223344/556677/136422.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-DRAMA MOVIES 4 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-DRAMA MOVIES 4 HD
+https://datahub11.com:443/live/223344/556677/136424.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-DRAMA MOVIES 5 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-DRAMA MOVIES 5 HD
+https://datahub11.com:443/live/223344/556677/136425.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-ACTION MOVIES 1 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-ACTION MOVIES 1 HD
+https://datahub11.com:443/live/223344/556677/136430.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-ACTION MOVIES 2 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-ACTION MOVIES 2 HD
+https://datahub11.com:443/live/223344/556677/136431.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-ROMANCE MOVIES 1 HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-ROMANCE MOVIES 1 HD
+https://datahub11.com:443/live/223344/556677/136434.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-SIVAJI GANESAN MOVIES HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-SIVAJI GANESAN MOVIES HD
+https://datahub11.com:443/live/223344/556677/136442.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-PARABHU MOVIES HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-PARABHU MOVIES HD
+https://datahub11.com:443/live/223344/556677/136446.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-KARTHI MOVIES HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-KARTHI MOVIES HD
+https://datahub11.com:443/live/223344/556677/136453.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-JAYAM RAVI MOVIES HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-JAYAM RAVI MOVIES HD
+https://datahub11.com:443/live/223344/556677/136454.ts
+#EXTINF:-1 tvg-id="" tvg-name="TAMIL-ARYA MOVIES HD" tvg-logo="http://stariptv.fun/logos/tamil.png" group-title="24x7 Movies Live",TAMIL-ARYA MOVIES HD
+https://datahub11.com:443/live/223344/556677/136455.ts
+#EXTINF:-1 group-title="24x7 Movies Live",GLobe Tamil Bloclbuster HD
+http://filex.me:8080//live/71626281/162627271/507266.ts
+#EXTINF:-1 group-title="24x7 Movies Live",TAmil 2022 2021 Collection VOL 1 HD
+http://filex.me:8080//live/71626281/162627271/507267.ts
+#EXTINF:-1 group-title="24x7 Movies Live",TAmil Collection VOL 2 HD
+http://filex.me:8080//live/71626281/162627271/507268.ts
+#EXTINF:-1 group-title="24x7 Movies Live",TAmil Collection VOL 3 HD
+http://filex.me:8080//live/71626281/162627271/507269.ts
+#EXTINF:-1 group-title="24x7 Movies Live",TAmil Movies VOL 1 HD
+http://filex.me:8080//live/71626281/162627271/507270.ts
+#EXTINF:-1 group-title="24x7 Movies Live",CInemania Tamil 1 FHD
+http://filex.me:8080//live/71626281/162627271/507271.ts
+#EXTINF:-1 group-title="24x7 Movies Live",CInemania Tamil 2 FHD
+http://filex.me:8080//live/71626281/162627271/507272.ts
+#EXTINF:-1 group-title="24x7 Movies Live",CInemania Tamil 3 FHD
+http://filex.me:8080//live/71626281/162627271/507273.ts
+#EXTINF:-1 group-title="24x7 Movies Live",CInemania Tamil 4 FHD
+http://filex.me:8080//live/71626281/162627271/507274.ts
+#EXTINF:-1 group-title="24x7 Movies Live",CInemania Tamil 5 FHD
+http://filex.me:8080//live/71626281/162627271/507275.ts
+#EXTINF:-1 group-title="24x7 Movies Live",CM: Tamil 4K HD
+http://filex.me:8080//live/71626281/162627271/507276.ts
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -10076,6 +10096,4 @@ https://m3u.8088y.fun/jtvp/DD_Sports.mpd?tk=testing
 https://m3u.8088y.fun/live/Cricket_Gold.m3u8?tk=testing
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 tvg-id="1090529097" tvg-name="Bundesliga 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000017023/1775632260232558_BLGA_26_MD31_Dortmund-vs-SC-Freiburg_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Borussia Dortmund vs SC Freiburg - MD 31 - 26 Apr 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000293/BLIGA_Bo2604/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=cdafe3bbfa3edd3829460b3a1e1daeb7-1777224600149
 #EXTM3U
