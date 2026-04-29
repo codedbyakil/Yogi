@@ -483,7 +483,7 @@ https://m3u.8088y.fun/local/rasi_lifestyle_hd.mpd?tk=testing
 #EXTINF:-1 tvg-id="sun194390" tvg-name="Chutti TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11278-j9j4h4s0-v1/imageContent-11278-j9j4h4s0-m1.png" group-title="Kids", Chutti TV
 https://m3u.8088y.fun/sxt/Chutti_TV.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://m3u.8088y.fun/jtvp/CN_HD_Tamil.json
+#KODIPROP:inputstream.adaptive.license_key=83997e19da7f5b15a53c150730a91f31:605f420d088427d95b55275eb174b734
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="1081" tvg-name="CN HD+ Tamil" tvg-logo="https://tatalogo.pages.dev/681.png" group-title="Kids", Cartoon Network HD
 https://m3u.8088y.fun/jtvp/CN_HD_Tamil.mpd?tk=testing
@@ -1863,6 +1863,8 @@ https://klorok.b-cdn.net/24_(2016)_HDRip_.mp4
 https://gokufiletolinkbot.boltx.uk/dl/69be38d9458513d48af3191e
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZmZiMDkyOTYtZDE1ZC00MzMxLTlmMjAtMjkyNGQ4ZTA0YzA4XkEyXkFqcGc@._V1_.jpg" type="movie" group-title="New Release",  Vishnu Vinyasam (2026)
 https://pixeldrain.dev/api/file/PqsQLgeG?download
+#EXTINF:-1 tvg-logo="" type="movie" group-title="New Release", sillunu oru kadhal
+https://klorok.b-cdn.net/Sillunu_Oru_Kaadhal_(2006)_HDRip_.mp4
 =============================PRIME VIDEO============================
 #EXTINF:-1 type="movie" group-title="Prime Video" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGJlNmY3NzctZDYwMC00NTE0LWJmZTMtMzllNmRmYzJmZDNhXkEyXkFqcGc@._V1_FMjpg_UY4096_.jpg", Madharaasi (2025)
 #EXTVLCOPT:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
@@ -8059,6 +8061,10 @@ http://nakkubettatv.livebox.co.in/nbtvhls/nbtv.m3u8
 #EXTINF:-1 tvg-id="family_channel" tvg-logo="https://i.ibb.co/x8gfWspD/Picsart-252-025-55-29-757.png" group-title="International",Family Channel
 rtmp://familychannel.livebox.co.in:1935/familychannel/live
 ================================LOCAL CHANNELS================================
+#EXTINF:-1 tvg-id="SriLanka" group-title="Overseas" tvg-logo="https://i.imgur.com/5cyTVRJ.png",NDTV LANKA
+https://g4wlkqqwl23a-hls-live.5centscdn.com/NDTVLANKA/1ff5fa54d14c3ff6c6bd3918bbb7db5d.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="tsnh" tvg-logo="https://i.ibb.co/N2RFkZLc/Picsart-26-03-14-12-36-02-419.png" group-title="Local Channels", TSN Hollywood HD
+http://198.144.149.206:8080/DINESH/PT/index.m3u8?token=GTR
 #EXTINF:-1 tvg-logo="" group-title="Local Channels",MR TV
 https://rtmp.bmlive.net/bms/bms/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Local Channels",PCN CHANNEL
@@ -8089,19 +8095,19 @@ https://rasinetworks.in/live/rasicomedyhd/index.mpd
 #EXTINF:-1 tvg-id="rasi_lifestyle_hd" tvg-logo="https://i.ibb.co/pr2wvtfQ/rasi-lifestyle-hd.png" group-title="Local Channels",Rasi Lifestyle Hd
 https://rasinetworks.in/live/rasilifestylehd/index.mpd
 -TP local-
-#EXTINF:-1 tvg-id="sana_tv2" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/sanatv_thumbnail-v2/sanatv_thumbnail.png" Group-title="local Channels", Sana Tv
+#EXTINF:-1 tvg-id="sana_tv2" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/sanatv_thumbnail-v2/sanatv_thumbnail.png" Group-title="Local Channels", Sana Tv
 https://cable75tataplay.akamaized.net/dash/sanatv.mpd
 #EXTINF:-1 tvg-id="suriyan_tv" tvg-name="Suriyan Tv" tvg-logo="https://tataprime.files.wordpress.com/2024/03/20240303_2107113622067629098400908.png" group-title="Local Channels",Suriyan Tv
 https://cable88tataplay.akamaized.net/live/suriyantv/index.mpd
-#EXTINF:-1 tvg-id="fl_lossyq_autoh_250w_250httpsltskcdns3euwest1amazonawscomjumpstarttemp_livecdnhlschannelsubintv_thumbnailv1subintv_thumbnailpng_grouptitlelocal_channelssubin_tv" tvg-name="Subin Tv" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/subintv_thumbnail-v1/subintv_thumbnail.png" Group-title="local Channels",subin Tv
+#EXTINF:-1 tvg-id="fl_lossyq_autoh_250w_250httpsltskcdns3euwest1amazonawscomjumpstarttemp_livecdnhlschannelsubintv_thumbnailv1subintv_thumbnailpng_grouptitlelocal_channelssubin_tv" tvg-name="Subin Tv" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/subintv_thumbnail-v1/subintv_thumbnail.png" Group-title="Local Channels",subin Tv
 https://cable88tataplay.akamaized.net/live/subintv/index.mpd
-#EXTINF:-1 tvg-id="fl_lossyq_autoh_250w_250httpsltskcdns3euwest1amazonawscomjumpstarttemp_livecdnhlschannelntvput_thumbnailv1ntvput_thumbnailpng_grouptitlelocal_channelsntv" tvg-name="NTv" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/ntvput_thumbnail-v1/ntvput_thumbnail.png" Group-title="local Channels",ntv
+#EXTINF:-1 tvg-id="fl_lossyq_autoh_250w_250httpsltskcdns3euwest1amazonawscomjumpstarttemp_livecdnhlschannelntvput_thumbnailv1ntvput_thumbnailpng_grouptitlelocal_channelsntv" tvg-name="NTv" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/ntvput_thumbnail-v1/ntvput_thumbnail.png" Group-title="Local Channels",ntv
 https://cable85tataplay.akamaized.net/live/ntvpkt/index.mpd
-#EXTINF:-1 tvg-id="fl_lossyq_autoh_250w_250httpsltskcdns3euwest1amazonawscomjumpstarttemp_livecdnhlschannelandmtv_thumbnailv1andmtv_thumbnailpng_grouptitlelocal_channelsanandham_tv" tvg-name="Anandham Tv" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/andmtv_thumbnail-v1/andmtv_thumbnail.png" Group-title="local Channels",anandham Tv
+#EXTINF:-1 tvg-id="fl_lossyq_autoh_250w_250httpsltskcdns3euwest1amazonawscomjumpstarttemp_livecdnhlschannelandmtv_thumbnailv1andmtv_thumbnailpng_grouptitlelocal_channelsanandham_tv" tvg-name="Anandham Tv" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/andmtv_thumbnail-v1/andmtv_thumbnail.png" Group-title="Local Channels",anandham Tv
 https://cable88tataplay.akamaized.net/live/anandhamtv/index.mpd
-#EXTINF:-1 tvg-id="utv" Group-title="local Channels",utv
+#EXTINF:-1 tvg-id="utv" Group-title="Local Channels",utv
 https://cable92tataplay.akamaized.net/live/utv/index.mpd
-#EXTINF:-1 tvg-id="fl_lossyq_autoh_250w_250httpsltskcdns3euwest1amazonawscomjumpstarttemp_livecdnhlschanneldharsantv_thumbnailv1dharsantv_thumbnailpng_grouptitlelocal_channelsdharsan_tv" tvg-name="ts1389" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/dharsantv_thumbnail-v1/dharsantv_thumbnail.png" Group-title="local Channels",dharsan Tv
+#EXTINF:-1 tvg-id="fl_lossyq_autoh_250w_250httpsltskcdns3euwest1amazonawscomjumpstarttemp_livecdnhlschanneldharsantv_thumbnailv1dharsantv_thumbnailpng_grouptitlelocal_channelsdharsan_tv" tvg-name="ts1389" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,Fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/temp_live/cdn/hls/channel/dharsantv_thumbnail-v1/dharsantv_thumbnail.png" Group-title="Local Channels",dharsan Tv
 https://cable91tataplay.akamaized.net/live/dharshantv/index.mpd
 #EXTINF:-1 tvg-id="murasu" tvg-logo="" group-title="Local Channels",Murasu
 https://medtaor.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/plives/050522/murasu/playlist.m3u8
@@ -10038,7 +10044,7 @@ https://arputharyesutv.arputharyesutv.com/live/md/index.m3u8
 http://144.217.77.42:8888/gta_tamil/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="velicham_tv" tvg-name="VELICHAM TV" group-title="Local Channels" tvg-logo="",Velicham Tv
 https://cdn.smartstream.video/smartstream-us/velichamtv/velichamtv/playlist.m3u8
-#EXTINF:-1 tvg-id="h_536al_ckirubai20tvpng_grouptitlelocal_channels_kirubai_tv" tvg-logo="https://static.wixstatic.com/media/3d2e01_e0908e81588a4eb1b3cf5ab61cab149e~mv2.png/v1/fill/w_536,H_536,al_c/kirubai%20tv.png" Group-title="local Channels", Kirubai Tv
+#EXTINF:-1 tvg-id="h_536al_ckirubai20tvpng_grouptitlelocal_channels_kirubai_tv" tvg-logo="https://static.wixstatic.com/media/3d2e01_e0908e81588a4eb1b3cf5ab61cab149e~mv2.png/v1/fill/w_536,H_536,al_c/kirubai%20tv.png" Group-title="Local Channels", Kirubai Tv
 https://server1.thewebworld.in:3208/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="madha__tv" group-title="Local Channels" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/56/Madha_TV.jpeg",Madha Tv
 http://103.109.45.5:1935/madhatv/madhatv.stream_HDp/playlist.m3u8
