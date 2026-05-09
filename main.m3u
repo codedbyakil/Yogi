@@ -559,15 +559,9 @@ https://m3u.8088y.fun/jtvp/Animax.mpd?tk=testing
 https://m3u.8088y.fun/sxt/Sun_News.mpd?tk=testing
 #EXTINF:-1 tvg-id="ts58" tvg-name="News18 Tamil Nadu" tvg-logo="https://tatalogo.pages.dev/58.png" group-title="News", News18 Tamil Nadu
 https://m3u.8088y.fun/live/News18_Tamil_Nadu.m3u8?tk=testing
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://m3u.8088y.fun/jtvp/Thanthi_TV.json
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
-#EXTINF:-1 tvg-id="830" tvg-name="Thanthi TV" tvg-logo="https://tatalogo.pages.dev/524.png" group-title="News", Thanthi TV
-https://m3u.8088y.fun/jtvp/Thanthi_TV.mpd?tk=testing
+#EXTINF:-1 tvg-id="677" tvg-name="Puthiya Thalimurai" tvg-logo="https://tatalogo.pages.dev/220.png" group-title="News", Puthiya Thalimurai
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://m3u.8088y.fun/jtvp/Puthiya_Thalimurai.json
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
-#EXTINF:-1 tvg-id="677" tvg-name="Puthiya Thalimurai" tvg-logo="https://tatalogo.pages.dev/220.png" group-title="News", Puthiya Thalimurai
 https://m3u.8088y.fun/jtvp/Puthiya_Thalimurai.mpd?tk=testing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://m3u.8088y.fun/jtvp/News_Tamil_24x7.json
@@ -579,6 +573,10 @@ https://m3u.8088y.fun/jtvp/News_Tamil_24x7.mpd?tk=testing
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
 #EXTINF:-1 tvg-id="636" tvg-name="Polimer News" tvg-logo="https://tatalogo.pages.dev/509.png" group-title="News", Polimer News
 https://m3u.8088y.fun/jtvp/Polimer_News.mpd?tk=testing
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1e67bdbd4cf5f7c902b52d30e5c01e8:850f909b3cbdba1084f393b7990f81f6
+#EXTINF:-1 tvg-id="830" tvg-name="Thanthi TV" tvg-logo="https://tatalogo.pages.dev/524.png" group-title="News", Thanthi TV
+https://jiotvpllive.cdn.jio.com/bpk-tv/Thanthi_TV_BTS/WDVLive/index.mpd?__hdnea__=st=1778317367~exp=1778338967~acl=/bpk-tv/Thanthi_TV_BTS/WDVLive/*~hmac=531e4c420a18536a60579db009d29ebfc955aad770b90f2702d6c3328304eca8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://m3u.8088y.fun/jtvp/News_J.json
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
@@ -10105,6 +10103,16 @@ https://m3u.8088y.fun/jtvp/DD_Sports.mpd?tk=testing
 https://m3u.8088y.fun/live/Cricket_Gold.m3u8?tk=testing
 #EXTM3U
 #EXTM3U
+#EXTINF:-1 tvg-id="1090529992" tvg-name="Star Cement Indian Football League 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000017604/1777489501719532_IFL_RD12_Chanmari_FC_vs_Dempo_Sports_Club_Live_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Chanmari FC vs Dempo Sports Club - 9 May 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/IFL_Chan0905/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=d0035036145ad0a9909593d165482e90-1778331000145
+#EXTINF:-1 tvg-id="1090529999" tvg-name="Bundesliga 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000017704/1777444852459341_Bundesliga_2025-26_MD-33_VfB-Stuttgart-vs-Bayer-Leverkusen_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | VfB Stuttgart vs Bayer Leverkusen - MD 33 - 9 May 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000296/Bliga_Vf0905/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=d0035036145ad0a9909593d165482e90-1778331000145
+#EXTINF:-1 tvg-id="1090529995" tvg-name="Bundesliga 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000017704/1777444681776341_Bundesliga_2025-26_MD-33_RB-Leipzig-vs-St-Pauli_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | RB Leipzig vs St Pauli - MD 33 - 9 May 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/Bliga_Rb0905/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=d0035036145ad0a9909593d165482e90-1778331000145
+#EXTINF:-1 tvg-id="1090530001" tvg-name="Bundesliga 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000017704/1777446520931341_Bundesliga_2025-26_MD-33_Hoffenheim-vs-Werder_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Hoffenheim vs Werder Bremen - MD 33 - 9 May 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/Blinga_H0905/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=d0035036145ad0a9909593d165482e90-1778331000145
+#EXTINF:-1 tvg-id="1090530000" tvg-name="Bundesliga 2025-26" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000017704/1777445248634341_Bundesliga_2025-26_MD-33_Augsburg-vs-Borussia-Mgladbach_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Augsburg vs Borussia Mönchengladbach - MD 33 - 9 May 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000297/Bliga_Au0905/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=d0035036145ad0a9909593d165482e90-1778331000145
 #EXTINF:-1 tvg-id="1090529991" tvg-name="DP World Tour" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000017689/177774700782439_DP_World_Estrella_Damm_Day3_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG |  Estrella Damm Catalunya Championship - Day 3 - 9 May 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/Cataluny0905/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=e2158cdca94f9c717e249c8fb97b46b8-1778321400140
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/Cataluny0905/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=d0035036145ad0a9909593d165482e90-1778331000145
 #EXTM3U
