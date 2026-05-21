@@ -10103,4 +10103,6 @@ https://m3u.8088y.fun/jtvp/DD_Sports.mpd?tk=testing
 https://m3u.8088y.fun/live/Cricket_Gold.m3u8?tk=testing
 #EXTM3U
 #EXTM3U
+#EXTINF:-1 tvg-id="1090530480" tvg-name="DP World Tour" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000017689/177774888355039_DP_World_Soudal_Open_Day1_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Soudal Open - Day 1 - 21 May 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/Soudal_O2105/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=184d139f8547d862db193ceafe457f0f-1779359400202
 #EXTM3U
