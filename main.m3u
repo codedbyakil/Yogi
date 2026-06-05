@@ -10103,4 +10103,6 @@ https://m3u.8088y.fun/jtvp/DD_Sports.mpd?tk=testing
 https://m3u.8088y.fun/live/Cricket_Gold.m3u8?tk=testing
 #EXTM3U
 #EXTM3U
+#EXTINF:-1 tvg-id="1090533891" tvg-name="UEFA International Friendlies" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019196/1780591123291597_INT_Friendlies26_Czechia_vs_Guatemala_4jun_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | Czechia vs Guatemala - 5 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000297/Football0406/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=b8e20716c214b263c458a81836078f6c-1780615800184
 #EXTM3U
