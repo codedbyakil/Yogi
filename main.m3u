@@ -10103,4 +10103,8 @@ https://m3u.8088y.fun/jtvp/DD_Sports.mpd?tk=testing
 https://m3u.8088y.fun/live/Cricket_Gold.m3u8?tk=testing
 #EXTM3U
 #EXTM3U
+#EXTINF:-1 tvg-id="1090534660" tvg-name="Chhattisgarh Cricket Premier League 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019541/178118003725399_CCPL26_SF_Raigarh_Lions_vs_Raipur_Rhinos_landscape_thumb.jpg" tvg-language="Hindi" group-title="Sliv events",HIN | Raigarh Lions vs Raipur Rhinos - Semi-Final - 12 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/Cricket_1206/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=014223f5873b739e1ba7de32e23d6d6d-1781273428201
+#EXTINF:-1 tvg-id="1090534596" tvg-name="Asian Tour 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019332/178071040616362_ASIAN_TOUR_GOLF_2026_International_Series_Morocco_day2_6jun_landscape_thumb.jpg" tvg-language="English" group-title="Sliv events",ENG | International Series Morocco - Day 2 - 12 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/AsianTou1206/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=014223f5873b739e1ba7de32e23d6d6d-1781273428201
 #EXTM3U
